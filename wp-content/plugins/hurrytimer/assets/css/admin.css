@@ -1,0 +1,2090 @@
+#adminmenu a[href="admin.php?page=go_hurrytimer_pro"] {
+  color: #d54e21; }
+  #adminmenu a[href="admin.php?page=go_hurrytimer_pro"] span {
+    font-size: 16px;
+    margin-right: 3px; }
+
+.post-type-hurrytimer_countdown {
+  /*! jQuery UI - v1.12.1 - 2016-09-14
+* http://jqueryui.com
+* Includes: core.css, accordion.css, autocomplete.css, menu.css, button.css, controlgroup.css, checkboxradio.css, datepicker.css, dialog.css, draggable.css, resizable.css, progressbar.css, selectable.css, selectmenu.css, slider.css, sortable.css, spinner.css, tabs.css, tooltip.css, theme.css
+* To view and modify this theme, visit http://jqueryui.com/themeroller/?bgShadowXPos=&bgOverlayXPos=&bgErrorXPos=&bgHighlightXPos=&bgContentXPos=&bgHeaderXPos=&bgActiveXPos=&bgHoverXPos=&bgDefaultXPos=&bgShadowYPos=&bgOverlayYPos=&bgErrorYPos=&bgHighlightYPos=&bgContentYPos=&bgHeaderYPos=&bgActiveYPos=&bgHoverYPos=&bgDefaultYPos=&bgShadowRepeat=&bgOverlayRepeat=&bgErrorRepeat=&bgHighlightRepeat=&bgContentRepeat=&bgHeaderRepeat=&bgActiveRepeat=&bgHoverRepeat=&bgDefaultRepeat=&iconsHover=url(%22images%2Fui-icons_555555_256x240.png%22)&iconsHighlight=url(%22images%2Fui-icons_777620_256x240.png%22)&iconsHeader=url(%22images%2Fui-icons_444444_256x240.png%22)&iconsError=url(%22images%2Fui-icons_cc0000_256x240.png%22)&iconsDefault=url(%22images%2Fui-icons_777777_256x240.png%22)&iconsContent=url(%22images%2Fui-icons_444444_256x240.png%22)&iconsActive=url(%22images%2Fui-icons_ffffff_256x240.png%22)&bgImgUrlShadow=&bgImgUrlOverlay=&bgImgUrlHover=&bgImgUrlHighlight=&bgImgUrlHeader=&bgImgUrlError=&bgImgUrlDefault=&bgImgUrlContent=&bgImgUrlActive=&opacityFilterShadow=Alpha(Opacity%3D30)&opacityFilterOverlay=Alpha(Opacity%3D30)&opacityShadowPerc=30&opacityOverlayPerc=30&iconColorHover=%23555555&iconColorHighlight=%23777620&iconColorHeader=%23444444&iconColorError=%23cc0000&iconColorDefault=%23777777&iconColorContent=%23444444&iconColorActive=%23ffffff&bgImgOpacityShadow=0&bgImgOpacityOverlay=0&bgImgOpacityError=95&bgImgOpacityHighlight=55&bgImgOpacityContent=75&bgImgOpacityHeader=75&bgImgOpacityActive=65&bgImgOpacityHover=75&bgImgOpacityDefault=75&bgTextureShadow=flat&bgTextureOverlay=flat&bgTextureError=flat&bgTextureHighlight=flat&bgTextureContent=flat&bgTextureHeader=flat&bgTextureActive=flat&bgTextureHover=flat&bgTextureDefault=flat&cornerRadius=3px&fwDefault=normal&ffDefault=Arial%2CHelvetica%2Csans-serif&fsDefault=1em&cornerRadiusShadow=8px&thicknessShadow=5px&offsetLeftShadow=0px&offsetTopShadow=0px&opacityShadow=.3&bgColorShadow=%23666666&opacityOverlay=.3&bgColorOverlay=%23aaaaaa&fcError=%235f3f3f&borderColorError=%23f1a899&bgColorError=%23fddfdf&fcHighlight=%23777620&borderColorHighlight=%23dad55e&bgColorHighlight=%23fffa90&fcContent=%23333333&borderColorContent=%23dddddd&bgColorContent=%23ffffff&fcHeader=%23333333&borderColorHeader=%23dddddd&bgColorHeader=%23e9e9e9&fcActive=%23ffffff&borderColorActive=%23003eff&bgColorActive=%23007fff&fcHover=%232b2b2b&borderColorHover=%23cccccc&bgColorHover=%23ededed&fcDefault=%23454545&borderColorDefault=%23c5c5c5&bgColorDefault=%23f6f6f6
+* Copyright jQuery Foundation and other contributors; Licensed MIT */
+  /* Shortened version style */ }
+  .post-type-hurrytimer_countdown .ui-helper-hidden {
+    display: none; }
+  .post-type-hurrytimer_countdown .ui-helper-hidden-accessible {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px; }
+  .post-type-hurrytimer_countdown .ui-helper-reset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    line-height: 1.3;
+    text-decoration: none;
+    font-size: 100%;
+    list-style: none; }
+  .post-type-hurrytimer_countdown .ui-helper-clearfix:before, .post-type-hurrytimer_countdown .ui-helper-clearfix:after {
+    content: "";
+    display: table;
+    border-collapse: collapse; }
+  .post-type-hurrytimer_countdown .ui-helper-clearfix:after {
+    clear: both; }
+  .post-type-hurrytimer_countdown .ui-helper-zfix {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    filter: Alpha(Opacity=0); }
+  .post-type-hurrytimer_countdown .ui-front {
+    z-index: 100; }
+  .post-type-hurrytimer_countdown .ui-state-disabled {
+    cursor: default !important;
+    pointer-events: none; }
+  .post-type-hurrytimer_countdown .ui-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -.25em;
+    position: relative;
+    text-indent: -99999px;
+    overflow: hidden;
+    background-repeat: no-repeat; }
+  .post-type-hurrytimer_countdown .ui-widget-icon-block {
+    left: 50%;
+    margin-left: -8px;
+    display: block; }
+  .post-type-hurrytimer_countdown .ui-widget-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  .post-type-hurrytimer_countdown .ui-accordion .ui-accordion-header {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    margin: 2px 0 0 0;
+    padding: .5em .5em .5em .7em;
+    font-size: 100%; }
+  .post-type-hurrytimer_countdown .ui-accordion .ui-accordion-content {
+    padding: 1em 2.2em;
+    border-top: 0;
+    overflow: auto; }
+  .post-type-hurrytimer_countdown .ui-autocomplete {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: default; }
+  .post-type-hurrytimer_countdown .ui-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    outline: 0; }
+  .post-type-hurrytimer_countdown .ui-menu .ui-menu {
+    position: absolute; }
+  .post-type-hurrytimer_countdown .ui-menu .ui-menu-item {
+    margin: 0;
+    cursor: pointer;
+    list-style-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"); }
+  .post-type-hurrytimer_countdown .ui-menu .ui-menu-item-wrapper {
+    position: relative;
+    padding: 3px 1em 3px .4em; }
+  .post-type-hurrytimer_countdown .ui-menu .ui-menu-divider {
+    margin: 5px 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    border-width: 1px 0 0 0; }
+  .post-type-hurrytimer_countdown .ui-menu .ui-state-focus, .post-type-hurrytimer_countdown .ui-menu .ui-state-active {
+    margin: -1px; }
+  .post-type-hurrytimer_countdown .ui-menu-icons {
+    position: relative; }
+  .post-type-hurrytimer_countdown .ui-menu-icons .ui-menu-item-wrapper {
+    padding-left: 2em; }
+  .post-type-hurrytimer_countdown .ui-menu .ui-icon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: .2em;
+    margin: auto 0; }
+  .post-type-hurrytimer_countdown .ui-menu .ui-menu-icon {
+    left: auto;
+    right: 0; }
+  .post-type-hurrytimer_countdown .ui-button {
+    padding: .4em 1em;
+    display: inline-block;
+    position: relative;
+    line-height: normal;
+    margin-right: .1em;
+    cursor: pointer;
+    vertical-align: middle;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: visible; }
+  .post-type-hurrytimer_countdown .ui-button, .post-type-hurrytimer_countdown .ui-button:link, .post-type-hurrytimer_countdown .ui-button:visited, .post-type-hurrytimer_countdown .ui-button:hover, .post-type-hurrytimer_countdown .ui-button:active {
+    text-decoration: none; }
+  .post-type-hurrytimer_countdown .ui-button-icon-only {
+    width: 2em;
+    box-sizing: border-box;
+    text-indent: -9999px;
+    white-space: nowrap; }
+  .post-type-hurrytimer_countdown input.ui-button.ui-button-icon-only {
+    text-indent: 0; }
+  .post-type-hurrytimer_countdown .ui-button-icon-only .ui-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -8px;
+    margin-left: -8px; }
+  .post-type-hurrytimer_countdown .ui-button.ui-icon-notext .ui-icon {
+    padding: 0;
+    width: 2.1em;
+    height: 2.1em;
+    text-indent: -9999px;
+    white-space: nowrap; }
+  .post-type-hurrytimer_countdown input.ui-button.ui-icon-notext .ui-icon {
+    width: auto;
+    height: auto;
+    text-indent: 0;
+    white-space: normal;
+    padding: .4em 1em; }
+  .post-type-hurrytimer_countdown input.ui-button::-moz-focus-inner, .post-type-hurrytimer_countdown button.ui-button::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  .post-type-hurrytimer_countdown .ui-controlgroup {
+    vertical-align: middle;
+    display: inline-block; }
+  .post-type-hurrytimer_countdown .ui-controlgroup > .ui-controlgroup-item {
+    float: left;
+    margin-left: 0;
+    margin-right: 0; }
+  .post-type-hurrytimer_countdown .ui-controlgroup > .ui-controlgroup-item:focus, .post-type-hurrytimer_countdown .ui-controlgroup > .ui-controlgroup-item.ui-visual-focus {
+    z-index: 9999; }
+  .post-type-hurrytimer_countdown .ui-controlgroup-vertical > .ui-controlgroup-item {
+    display: block;
+    float: none;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left; }
+  .post-type-hurrytimer_countdown .ui-controlgroup-vertical .ui-controlgroup-item {
+    box-sizing: border-box; }
+  .post-type-hurrytimer_countdown .ui-controlgroup .ui-controlgroup-label {
+    padding: .4em 1em; }
+  .post-type-hurrytimer_countdown .ui-controlgroup .ui-controlgroup-label span {
+    font-size: 80%; }
+  .post-type-hurrytimer_countdown .ui-controlgroup-horizontal .ui-controlgroup-label + .ui-controlgroup-item {
+    border-left: none; }
+  .post-type-hurrytimer_countdown .ui-controlgroup-vertical .ui-controlgroup-label + .ui-controlgroup-item {
+    border-top: none; }
+  .post-type-hurrytimer_countdown .ui-controlgroup-horizontal .ui-controlgroup-label.ui-widget-content {
+    border-right: none; }
+  .post-type-hurrytimer_countdown .ui-controlgroup-vertical .ui-controlgroup-label.ui-widget-content {
+    border-bottom: none; }
+  .post-type-hurrytimer_countdown .ui-controlgroup-vertical .ui-spinner-input {
+    width: 75%;
+    width: calc( 100% - 2.4em); }
+  .post-type-hurrytimer_countdown .ui-controlgroup-vertical .ui-spinner .ui-spinner-up {
+    border-top-style: solid; }
+  .post-type-hurrytimer_countdown .ui-checkboxradio-label .ui-icon-background {
+    box-shadow: inset 1px 1px 1px #ccc;
+    border-radius: .12em;
+    border: none; }
+  .post-type-hurrytimer_countdown .ui-checkboxradio-radio-label .ui-icon-background {
+    width: 16px;
+    height: 16px;
+    border-radius: 1em;
+    overflow: visible;
+    border: none; }
+  .post-type-hurrytimer_countdown .ui-checkboxradio-radio-label.ui-checkboxradio-checked .ui-icon, .post-type-hurrytimer_countdown .ui-checkboxradio-radio-label.ui-checkboxradio-checked:hover .ui-icon {
+    background-image: none;
+    width: 8px;
+    height: 8px;
+    border-width: 4px;
+    border-style: solid; }
+  .post-type-hurrytimer_countdown .ui-checkboxradio-disabled {
+    pointer-events: none; }
+  .post-type-hurrytimer_countdown .ui-datepicker {
+    width: 17em;
+    padding: .2em .2em 0;
+    display: none; }
+  .post-type-hurrytimer_countdown .ui-datepicker .ui-datepicker-header {
+    position: relative;
+    padding: .2em 0; }
+  .post-type-hurrytimer_countdown .ui-datepicker .ui-datepicker-prev, .post-type-hurrytimer_countdown .ui-datepicker .ui-datepicker-next {
+    position: absolute;
+    top: 2px;
+    width: 1.8em;
+    height: 1.8em; }
+  .post-type-hurrytimer_countdown .ui-datepicker .ui-datepicker-prev-hover, .post-type-hurrytimer_countdown .ui-datepicker .ui-datepicker-next-hover {
+    top: 1px; }
+  .post-type-hurrytimer_countdown .ui-datepicker .ui-datepicker-prev {
+    left: 2px; }
+  .post-type-hurrytimer_countdown .ui-datepicker .ui-datepicker-next {
+    right: 2px; }
+  .post-type-hurrytimer_countdown .ui-datepicker .ui-datepicker-prev-hover {
+    left: 1px; }
+  .post-type-hurrytimer_countdown .ui-datepicker .ui-datepicker-next-hover {
+    right: 1px; }
+  .post-type-hurrytimer_countdown .ui-datepicker .ui-datepicker-prev span, .post-type-hurrytimer_countdown .ui-datepicker .ui-datepicker-next span {
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -8px;
+    top: 50%;
+    margin-top: -8px; }
+  .post-type-hurrytimer_countdown .ui-datepicker .ui-datepicker-title {
+    margin: 0 2.3em;
+    line-height: 1.8em;
+    text-align: center; }
+  .post-type-hurrytimer_countdown .ui-datepicker .ui-datepicker-title select {
+    font-size: 1em;
+    margin: 1px 0; }
+  .post-type-hurrytimer_countdown .ui-datepicker select.ui-datepicker-month, .post-type-hurrytimer_countdown .ui-datepicker select.ui-datepicker-year {
+    width: 45%; }
+  .post-type-hurrytimer_countdown .ui-datepicker table {
+    width: 100%;
+    font-size: .9em;
+    border-collapse: collapse;
+    margin: 0 0 .4em; }
+  .post-type-hurrytimer_countdown .ui-datepicker th {
+    padding: .7em .3em;
+    text-align: center;
+    font-weight: bold;
+    border: 0; }
+  .post-type-hurrytimer_countdown .ui-datepicker td {
+    border: 0;
+    padding: 1px; }
+  .post-type-hurrytimer_countdown .ui-datepicker td span, .post-type-hurrytimer_countdown .ui-datepicker td a {
+    display: block;
+    padding: .2em;
+    text-align: right;
+    text-decoration: none; }
+  .post-type-hurrytimer_countdown .ui-datepicker .ui-datepicker-buttonpane {
+    background-image: none;
+    margin: .7em 0 0 0;
+    padding: 0 .2em;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0; }
+  .post-type-hurrytimer_countdown .ui-datepicker .ui-datepicker-buttonpane button {
+    float: right;
+    margin: .5em .2em .4em;
+    cursor: pointer;
+    padding: .2em .6em .3em .6em;
+    width: auto;
+    overflow: visible; }
+  .post-type-hurrytimer_countdown .ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+    float: left; }
+  .post-type-hurrytimer_countdown .ui-datepicker.ui-datepicker-multi {
+    width: auto; }
+  .post-type-hurrytimer_countdown .ui-datepicker-multi .ui-datepicker-group {
+    float: left; }
+  .post-type-hurrytimer_countdown .ui-datepicker-multi .ui-datepicker-group table {
+    width: 95%;
+    margin: 0 auto .4em; }
+  .post-type-hurrytimer_countdown .ui-datepicker-multi-2 .ui-datepicker-group {
+    width: 50%; }
+  .post-type-hurrytimer_countdown .ui-datepicker-multi-3 .ui-datepicker-group {
+    width: 33.3%; }
+  .post-type-hurrytimer_countdown .ui-datepicker-multi-4 .ui-datepicker-group {
+    width: 25%; }
+  .post-type-hurrytimer_countdown .ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header, .post-type-hurrytimer_countdown .ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
+    border-left-width: 0; }
+  .post-type-hurrytimer_countdown .ui-datepicker-multi .ui-datepicker-buttonpane {
+    clear: left; }
+  .post-type-hurrytimer_countdown .ui-datepicker-row-break {
+    clear: both;
+    width: 100%;
+    font-size: 0; }
+  .post-type-hurrytimer_countdown .ui-datepicker-rtl {
+    direction: rtl; }
+  .post-type-hurrytimer_countdown .ui-datepicker-rtl .ui-datepicker-prev {
+    right: 2px;
+    left: auto; }
+  .post-type-hurrytimer_countdown .ui-datepicker-rtl .ui-datepicker-next {
+    left: 2px;
+    right: auto; }
+  .post-type-hurrytimer_countdown .ui-datepicker-rtl .ui-datepicker-prev:hover {
+    right: 1px;
+    left: auto; }
+  .post-type-hurrytimer_countdown .ui-datepicker-rtl .ui-datepicker-next:hover {
+    left: 1px;
+    right: auto; }
+  .post-type-hurrytimer_countdown .ui-datepicker-rtl .ui-datepicker-buttonpane {
+    clear: right; }
+  .post-type-hurrytimer_countdown .ui-datepicker-rtl .ui-datepicker-buttonpane button {
+    float: left; }
+  .post-type-hurrytimer_countdown .ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current, .post-type-hurrytimer_countdown .ui-datepicker-rtl .ui-datepicker-group {
+    float: right; }
+  .post-type-hurrytimer_countdown .ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header, .post-type-hurrytimer_countdown .ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
+    border-right-width: 0;
+    border-left-width: 1px; }
+  .post-type-hurrytimer_countdown .ui-datepicker .ui-icon {
+    display: block;
+    text-indent: -99999px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    left: .5em;
+    top: .3em; }
+  .post-type-hurrytimer_countdown .ui-dialog {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: .2em;
+    outline: 0; }
+  .post-type-hurrytimer_countdown .ui-dialog .ui-dialog-titlebar {
+    padding: .4em 1em;
+    position: relative; }
+  .post-type-hurrytimer_countdown .ui-dialog .ui-dialog-title {
+    float: left;
+    margin: .1em 0;
+    white-space: nowrap;
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+  .post-type-hurrytimer_countdown .ui-dialog .ui-dialog-titlebar-close {
+    position: absolute;
+    right: .3em;
+    top: 50%;
+    width: 20px;
+    margin: -10px 0 0 0;
+    padding: 1px;
+    height: 20px; }
+  .post-type-hurrytimer_countdown .ui-dialog .ui-dialog-content {
+    position: relative;
+    border: 0;
+    padding: .5em 1em;
+    background: none;
+    overflow: auto; }
+  .post-type-hurrytimer_countdown .ui-dialog .ui-dialog-buttonpane {
+    text-align: left;
+    border-width: 1px 0 0 0;
+    background-image: none;
+    margin-top: .5em;
+    padding: .3em 1em .5em .4em; }
+  .post-type-hurrytimer_countdown .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+    float: right; }
+  .post-type-hurrytimer_countdown .ui-dialog .ui-dialog-buttonpane button {
+    margin: .5em .4em .5em 0;
+    cursor: pointer; }
+  .post-type-hurrytimer_countdown .ui-dialog .ui-resizable-n {
+    height: 2px;
+    top: 0; }
+  .post-type-hurrytimer_countdown .ui-dialog .ui-resizable-e {
+    width: 2px;
+    right: 0; }
+  .post-type-hurrytimer_countdown .ui-dialog .ui-resizable-s {
+    height: 2px;
+    bottom: 0; }
+  .post-type-hurrytimer_countdown .ui-dialog .ui-resizable-w {
+    width: 2px;
+    left: 0; }
+  .post-type-hurrytimer_countdown .ui-dialog .ui-resizable-se, .post-type-hurrytimer_countdown .ui-dialog .ui-resizable-sw, .post-type-hurrytimer_countdown .ui-dialog .ui-resizable-ne, .post-type-hurrytimer_countdown .ui-dialog .ui-resizable-nw {
+    width: 7px;
+    height: 7px; }
+  .post-type-hurrytimer_countdown .ui-dialog .ui-resizable-se {
+    right: 0;
+    bottom: 0; }
+  .post-type-hurrytimer_countdown .ui-dialog .ui-resizable-sw {
+    left: 0;
+    bottom: 0; }
+  .post-type-hurrytimer_countdown .ui-dialog .ui-resizable-ne {
+    right: 0;
+    top: 0; }
+  .post-type-hurrytimer_countdown .ui-dialog .ui-resizable-nw {
+    left: 0;
+    top: 0; }
+  .post-type-hurrytimer_countdown .ui-draggable .ui-dialog-titlebar {
+    cursor: move; }
+  .post-type-hurrytimer_countdown .ui-draggable-handle {
+    -ms-touch-action: none;
+    touch-action: none; }
+  .post-type-hurrytimer_countdown .ui-resizable {
+    position: relative; }
+  .post-type-hurrytimer_countdown .ui-resizable-handle {
+    position: absolute;
+    font-size: 0.1px;
+    display: block;
+    -ms-touch-action: none;
+    touch-action: none; }
+  .post-type-hurrytimer_countdown .ui-resizable-disabled .ui-resizable-handle, .post-type-hurrytimer_countdown .ui-resizable-autohide .ui-resizable-handle {
+    display: none; }
+  .post-type-hurrytimer_countdown .ui-resizable-n {
+    cursor: n-resize;
+    height: 7px;
+    width: 100%;
+    top: -5px;
+    left: 0; }
+  .post-type-hurrytimer_countdown .ui-resizable-s {
+    cursor: s-resize;
+    height: 7px;
+    width: 100%;
+    bottom: -5px;
+    left: 0; }
+  .post-type-hurrytimer_countdown .ui-resizable-e {
+    cursor: e-resize;
+    width: 7px;
+    right: -5px;
+    top: 0;
+    height: 100%; }
+  .post-type-hurrytimer_countdown .ui-resizable-w {
+    cursor: w-resize;
+    width: 7px;
+    left: -5px;
+    top: 0;
+    height: 100%; }
+  .post-type-hurrytimer_countdown .ui-resizable-se {
+    cursor: se-resize;
+    width: 12px;
+    height: 12px;
+    right: 1px;
+    bottom: 1px; }
+  .post-type-hurrytimer_countdown .ui-resizable-sw {
+    cursor: sw-resize;
+    width: 9px;
+    height: 9px;
+    left: -5px;
+    bottom: -5px; }
+  .post-type-hurrytimer_countdown .ui-resizable-nw {
+    cursor: nw-resize;
+    width: 9px;
+    height: 9px;
+    left: -5px;
+    top: -5px; }
+  .post-type-hurrytimer_countdown .ui-resizable-ne {
+    cursor: ne-resize;
+    width: 9px;
+    height: 9px;
+    right: -5px;
+    top: -5px; }
+  .post-type-hurrytimer_countdown .ui-progressbar {
+    height: 2em;
+    text-align: left;
+    overflow: hidden; }
+  .post-type-hurrytimer_countdown .ui-progressbar .ui-progressbar-value {
+    margin: -1px;
+    height: 100%; }
+  .post-type-hurrytimer_countdown .ui-progressbar .ui-progressbar-overlay {
+    background: url("data:image/gif;base64,R0lGODlhKAAoAIABAAAAAP///yH/C05FVFNDQVBFMi4wAwEAAAAh+QQJAQABACwAAAAAKAAoAAACkYwNqXrdC52DS06a7MFZI+4FHBCKoDeWKXqymPqGqxvJrXZbMx7Ttc+w9XgU2FB3lOyQRWET2IFGiU9m1frDVpxZZc6bfHwv4c1YXP6k1Vdy292Fb6UkuvFtXpvWSzA+HycXJHUXiGYIiMg2R6W459gnWGfHNdjIqDWVqemH2ekpObkpOlppWUqZiqr6edqqWQAAIfkECQEAAQAsAAAAACgAKAAAApSMgZnGfaqcg1E2uuzDmmHUBR8Qil95hiPKqWn3aqtLsS18y7G1SzNeowWBENtQd+T1JktP05nzPTdJZlR6vUxNWWjV+vUWhWNkWFwxl9VpZRedYcflIOLafaa28XdsH/ynlcc1uPVDZxQIR0K25+cICCmoqCe5mGhZOfeYSUh5yJcJyrkZWWpaR8doJ2o4NYq62lAAACH5BAkBAAEALAAAAAAoACgAAAKVDI4Yy22ZnINRNqosw0Bv7i1gyHUkFj7oSaWlu3ovC8GxNso5fluz3qLVhBVeT/Lz7ZTHyxL5dDalQWPVOsQWtRnuwXaFTj9jVVh8pma9JjZ4zYSj5ZOyma7uuolffh+IR5aW97cHuBUXKGKXlKjn+DiHWMcYJah4N0lYCMlJOXipGRr5qdgoSTrqWSq6WFl2ypoaUAAAIfkECQEAAQAsAAAAACgAKAAAApaEb6HLgd/iO7FNWtcFWe+ufODGjRfoiJ2akShbueb0wtI50zm02pbvwfWEMWBQ1zKGlLIhskiEPm9R6vRXxV4ZzWT2yHOGpWMyorblKlNp8HmHEb/lCXjcW7bmtXP8Xt229OVWR1fod2eWqNfHuMjXCPkIGNileOiImVmCOEmoSfn3yXlJWmoHGhqp6ilYuWYpmTqKUgAAIfkECQEAAQAsAAAAACgAKAAAApiEH6kb58biQ3FNWtMFWW3eNVcojuFGfqnZqSebuS06w5V80/X02pKe8zFwP6EFWOT1lDFk8rGERh1TTNOocQ61Hm4Xm2VexUHpzjymViHrFbiELsefVrn6XKfnt2Q9G/+Xdie499XHd2g4h7ioOGhXGJboGAnXSBnoBwKYyfioubZJ2Hn0RuRZaflZOil56Zp6iioKSXpUAAAh+QQJAQABACwAAAAAKAAoAAACkoQRqRvnxuI7kU1a1UU5bd5tnSeOZXhmn5lWK3qNTWvRdQxP8qvaC+/yaYQzXO7BMvaUEmJRd3TsiMAgswmNYrSgZdYrTX6tSHGZO73ezuAw2uxuQ+BbeZfMxsexY35+/Qe4J1inV0g4x3WHuMhIl2jXOKT2Q+VU5fgoSUI52VfZyfkJGkha6jmY+aaYdirq+lQAACH5BAkBAAEALAAAAAAoACgAAAKWBIKpYe0L3YNKToqswUlvznigd4wiR4KhZrKt9Upqip61i9E3vMvxRdHlbEFiEXfk9YARYxOZZD6VQ2pUunBmtRXo1Lf8hMVVcNl8JafV38aM2/Fu5V16Bn63r6xt97j09+MXSFi4BniGFae3hzbH9+hYBzkpuUh5aZmHuanZOZgIuvbGiNeomCnaxxap2upaCZsq+1kAACH5BAkBAAEALAAAAAAoACgAAAKXjI8By5zf4kOxTVrXNVlv1X0d8IGZGKLnNpYtm8Lr9cqVeuOSvfOW79D9aDHizNhDJidFZhNydEahOaDH6nomtJjp1tutKoNWkvA6JqfRVLHU/QUfau9l2x7G54d1fl995xcIGAdXqMfBNadoYrhH+Mg2KBlpVpbluCiXmMnZ2Sh4GBqJ+ckIOqqJ6LmKSllZmsoq6wpQAAAh+QQJAQABACwAAAAAKAAoAAAClYx/oLvoxuJDkU1a1YUZbJ59nSd2ZXhWqbRa2/gF8Gu2DY3iqs7yrq+xBYEkYvFSM8aSSObE+ZgRl1BHFZNr7pRCavZ5BW2142hY3AN/zWtsmf12p9XxxFl2lpLn1rseztfXZjdIWIf2s5dItwjYKBgo9yg5pHgzJXTEeGlZuenpyPmpGQoKOWkYmSpaSnqKileI2FAAACH5BAkBAAEALAAAAAAoACgAAAKVjB+gu+jG4kORTVrVhRlsnn2dJ3ZleFaptFrb+CXmO9OozeL5VfP99HvAWhpiUdcwkpBH3825AwYdU8xTqlLGhtCosArKMpvfa1mMRae9VvWZfeB2XfPkeLmm18lUcBj+p5dnN8jXZ3YIGEhYuOUn45aoCDkp16hl5IjYJvjWKcnoGQpqyPlpOhr3aElaqrq56Bq7VAAAOw==");
+    height: 100%;
+    filter: alpha(opacity=25);
+    opacity: 0.25; }
+  .post-type-hurrytimer_countdown .ui-progressbar-indeterminate .ui-progressbar-value {
+    background-image: none; }
+  .post-type-hurrytimer_countdown .ui-selectable {
+    -ms-touch-action: none;
+    touch-action: none; }
+  .post-type-hurrytimer_countdown .ui-selectable-helper {
+    position: absolute;
+    z-index: 100;
+    border: 1px dotted black; }
+  .post-type-hurrytimer_countdown .ui-selectmenu-menu {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none; }
+  .post-type-hurrytimer_countdown .ui-selectmenu-menu .ui-menu {
+    overflow: auto;
+    overflow-x: hidden;
+    padding-bottom: 1px; }
+  .post-type-hurrytimer_countdown .ui-selectmenu-menu .ui-menu .ui-selectmenu-optgroup {
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1.5;
+    padding: 2px 0.4em;
+    margin: 0.5em 0 0 0;
+    height: auto;
+    border: 0; }
+  .post-type-hurrytimer_countdown .ui-selectmenu-open {
+    display: block; }
+  .post-type-hurrytimer_countdown .ui-selectmenu-text {
+    display: block;
+    margin-right: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+  .post-type-hurrytimer_countdown .ui-selectmenu-button.ui-button {
+    text-align: left;
+    white-space: nowrap;
+    width: 14em; }
+  .post-type-hurrytimer_countdown .ui-selectmenu-icon.ui-icon {
+    float: right;
+    margin-top: 0; }
+  .post-type-hurrytimer_countdown .ui-slider {
+    position: relative;
+    text-align: left; }
+  .post-type-hurrytimer_countdown .ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 1.2em;
+    height: 1.2em;
+    cursor: default;
+    -ms-touch-action: none;
+    touch-action: none; }
+  .post-type-hurrytimer_countdown .ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    font-size: .7em;
+    display: block;
+    border: 0;
+    background-position: 0 0; }
+  .post-type-hurrytimer_countdown .ui-slider.ui-state-disabled .ui-slider-handle, .post-type-hurrytimer_countdown .ui-slider.ui-state-disabled .ui-slider-range {
+    filter: inherit; }
+  .post-type-hurrytimer_countdown .ui-slider-horizontal {
+    height: .8em; }
+  .post-type-hurrytimer_countdown .ui-slider-horizontal .ui-slider-handle {
+    top: -.3em;
+    margin-left: -.6em; }
+  .post-type-hurrytimer_countdown .ui-slider-horizontal .ui-slider-range {
+    top: 0;
+    height: 100%; }
+  .post-type-hurrytimer_countdown .ui-slider-horizontal .ui-slider-range-min {
+    left: 0; }
+  .post-type-hurrytimer_countdown .ui-slider-horizontal .ui-slider-range-max {
+    right: 0; }
+  .post-type-hurrytimer_countdown .ui-slider-vertical {
+    width: .8em;
+    height: 100px; }
+  .post-type-hurrytimer_countdown .ui-slider-vertical .ui-slider-handle {
+    left: -.3em;
+    margin-left: 0;
+    margin-bottom: -.6em; }
+  .post-type-hurrytimer_countdown .ui-slider-vertical .ui-slider-range {
+    left: 0;
+    width: 100%; }
+  .post-type-hurrytimer_countdown .ui-slider-vertical .ui-slider-range-min {
+    bottom: 0; }
+  .post-type-hurrytimer_countdown .ui-slider-vertical .ui-slider-range-max {
+    top: 0; }
+  .post-type-hurrytimer_countdown .ui-sortable-handle {
+    -ms-touch-action: none;
+    touch-action: none; }
+  .post-type-hurrytimer_countdown .ui-spinner {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0;
+    vertical-align: middle; }
+  .post-type-hurrytimer_countdown .ui-spinner-input {
+    border: none;
+    background: none;
+    color: inherit;
+    padding: .222em 0;
+    margin: .2em 0;
+    vertical-align: middle;
+    margin-left: .4em;
+    margin-right: 2em; }
+  .post-type-hurrytimer_countdown .ui-spinner-button {
+    width: 1.6em;
+    height: 50%;
+    font-size: .5em;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    cursor: default;
+    display: block;
+    overflow: hidden;
+    right: 0; }
+  .post-type-hurrytimer_countdown .ui-spinner a.ui-spinner-button {
+    border-top-style: none;
+    border-bottom-style: none;
+    border-right-style: none; }
+  .post-type-hurrytimer_countdown .ui-spinner-up {
+    top: 0; }
+  .post-type-hurrytimer_countdown .ui-spinner-down {
+    bottom: 0; }
+  .post-type-hurrytimer_countdown .ui-tabs {
+    position: relative;
+    padding: .2em; }
+  .post-type-hurrytimer_countdown .ui-tabs .ui-tabs-nav {
+    margin: 0;
+    padding: .2em .2em 0; }
+  .post-type-hurrytimer_countdown .ui-tabs .ui-tabs-nav li {
+    list-style: none;
+    float: left;
+    position: relative;
+    top: 0;
+    margin: 1px .2em 0 0;
+    border-bottom-width: 0;
+    padding: 0;
+    white-space: nowrap; }
+  .post-type-hurrytimer_countdown .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    float: left;
+    padding: .5em 1em;
+    text-decoration: none; }
+  .post-type-hurrytimer_countdown .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    margin-bottom: -1px;
+    padding-bottom: 1px; }
+  .post-type-hurrytimer_countdown .ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor, .post-type-hurrytimer_countdown .ui-tabs .ui-tabs-nav li.ui-state-disabled .ui-tabs-anchor, .post-type-hurrytimer_countdown .ui-tabs .ui-tabs-nav li.ui-tabs-loading .ui-tabs-anchor {
+    cursor: text; }
+  .post-type-hurrytimer_countdown .ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+    cursor: pointer; }
+  .post-type-hurrytimer_countdown .ui-tabs .ui-tabs-panel {
+    display: block;
+    border-width: 0;
+    padding: 1em 1.4em;
+    background: none; }
+  .post-type-hurrytimer_countdown .ui-tooltip {
+    padding: 8px;
+    position: absolute;
+    z-index: 9999;
+    max-width: 300px; }
+  .post-type-hurrytimer_countdown body .ui-tooltip {
+    border-width: 2px; }
+  .post-type-hurrytimer_countdown .ui-widget {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1em; }
+  .post-type-hurrytimer_countdown .ui-widget .ui-widget {
+    font-size: 1em; }
+  .post-type-hurrytimer_countdown .ui-widget input, .post-type-hurrytimer_countdown .ui-widget select, .post-type-hurrytimer_countdown .ui-widget textarea, .post-type-hurrytimer_countdown .ui-widget button {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1em; }
+  .post-type-hurrytimer_countdown .ui-widget.ui-widget-content {
+    border: 1px solid #c5c5c5; }
+  .post-type-hurrytimer_countdown .ui-widget-content {
+    border: 1px solid #ddd;
+    background: #fff;
+    color: #333; }
+  .post-type-hurrytimer_countdown .ui-widget-content a {
+    color: #333; }
+  .post-type-hurrytimer_countdown .ui-widget-header {
+    border: 1px solid #ddd;
+    background: #e9e9e9;
+    color: #333;
+    font-weight: bold; }
+  .post-type-hurrytimer_countdown .ui-widget-header a {
+    color: #333; }
+  .post-type-hurrytimer_countdown .ui-state-default, .post-type-hurrytimer_countdown .ui-widget-content .ui-state-default, .post-type-hurrytimer_countdown .ui-widget-header .ui-state-default, .post-type-hurrytimer_countdown .ui-button, .post-type-hurrytimer_countdown html .ui-button.ui-state-disabled:hover, .post-type-hurrytimer_countdown html .ui-button.ui-state-disabled:active {
+    border: 1px solid #c5c5c5;
+    background: #f6f6f6;
+    font-weight: normal;
+    color: #454545; }
+  .post-type-hurrytimer_countdown .ui-state-default a, .post-type-hurrytimer_countdown .ui-state-default a:link, .post-type-hurrytimer_countdown .ui-state-default a:visited, .post-type-hurrytimer_countdown a.ui-button, .post-type-hurrytimer_countdown a:link.ui-button, .post-type-hurrytimer_countdown a:visited.ui-button, .post-type-hurrytimer_countdown .ui-button {
+    color: #454545;
+    text-decoration: none; }
+  .post-type-hurrytimer_countdown .ui-state-hover, .post-type-hurrytimer_countdown .ui-widget-content .ui-state-hover, .post-type-hurrytimer_countdown .ui-widget-header .ui-state-hover, .post-type-hurrytimer_countdown .ui-state-focus, .post-type-hurrytimer_countdown .ui-widget-content .ui-state-focus, .post-type-hurrytimer_countdown .ui-widget-header .ui-state-focus, .post-type-hurrytimer_countdown .ui-button:hover, .post-type-hurrytimer_countdown .ui-button:focus {
+    border: 1px solid #ccc;
+    background: #ededed;
+    font-weight: normal;
+    color: #2b2b2b; }
+  .post-type-hurrytimer_countdown .ui-state-hover a, .post-type-hurrytimer_countdown .ui-state-hover a:hover, .post-type-hurrytimer_countdown .ui-state-hover a:link, .post-type-hurrytimer_countdown .ui-state-hover a:visited, .post-type-hurrytimer_countdown .ui-state-focus a, .post-type-hurrytimer_countdown .ui-state-focus a:hover, .post-type-hurrytimer_countdown .ui-state-focus a:link, .post-type-hurrytimer_countdown .ui-state-focus a:visited, .post-type-hurrytimer_countdown a.ui-button:hover, .post-type-hurrytimer_countdown a.ui-button:focus {
+    color: #2b2b2b;
+    text-decoration: none; }
+  .post-type-hurrytimer_countdown .ui-visual-focus {
+    box-shadow: 0 0 3px 1px #5e9ed6; }
+  .post-type-hurrytimer_countdown .ui-state-active, .post-type-hurrytimer_countdown .ui-widget-content .ui-state-active, .post-type-hurrytimer_countdown .ui-widget-header .ui-state-active, .post-type-hurrytimer_countdown a.ui-button:active, .post-type-hurrytimer_countdown .ui-button:active, .post-type-hurrytimer_countdown .ui-button.ui-state-active:hover {
+    border: 1px solid #003eff;
+    background: #007fff;
+    font-weight: normal;
+    color: #fff; }
+  .post-type-hurrytimer_countdown .ui-icon-background, .post-type-hurrytimer_countdown .ui-state-active .ui-icon-background {
+    border: #003eff;
+    background-color: #fff; }
+  .post-type-hurrytimer_countdown .ui-state-active a, .post-type-hurrytimer_countdown .ui-state-active a:link, .post-type-hurrytimer_countdown .ui-state-active a:visited {
+    color: #fff;
+    text-decoration: none; }
+  .post-type-hurrytimer_countdown .ui-state-highlight, .post-type-hurrytimer_countdown .ui-widget-content .ui-state-highlight, .post-type-hurrytimer_countdown .ui-widget-header .ui-state-highlight {
+    border: 1px solid #dad55e;
+    background: #fffa90;
+    color: #777620; }
+  .post-type-hurrytimer_countdown .ui-state-checked {
+    border: 1px solid #dad55e;
+    background: #fffa90; }
+  .post-type-hurrytimer_countdown .ui-state-highlight a, .post-type-hurrytimer_countdown .ui-widget-content .ui-state-highlight a, .post-type-hurrytimer_countdown .ui-widget-header .ui-state-highlight a {
+    color: #777620; }
+  .post-type-hurrytimer_countdown .ui-state-error, .post-type-hurrytimer_countdown .ui-widget-content .ui-state-error, .post-type-hurrytimer_countdown .ui-widget-header .ui-state-error {
+    border: 1px solid #f1a899;
+    background: #fddfdf;
+    color: #5f3f3f; }
+  .post-type-hurrytimer_countdown .ui-state-error a, .post-type-hurrytimer_countdown .ui-widget-content .ui-state-error a, .post-type-hurrytimer_countdown .ui-widget-header .ui-state-error a {
+    color: #5f3f3f; }
+  .post-type-hurrytimer_countdown .ui-state-error-text, .post-type-hurrytimer_countdown .ui-widget-content .ui-state-error-text, .post-type-hurrytimer_countdown .ui-widget-header .ui-state-error-text {
+    color: #5f3f3f; }
+  .post-type-hurrytimer_countdown .ui-priority-primary, .post-type-hurrytimer_countdown .ui-widget-content .ui-priority-primary, .post-type-hurrytimer_countdown .ui-widget-header .ui-priority-primary {
+    font-weight: bold; }
+  .post-type-hurrytimer_countdown .ui-priority-secondary, .post-type-hurrytimer_countdown .ui-widget-content .ui-priority-secondary, .post-type-hurrytimer_countdown .ui-widget-header .ui-priority-secondary {
+    opacity: .7;
+    filter: Alpha(Opacity=70);
+    font-weight: normal; }
+  .post-type-hurrytimer_countdown .ui-state-disabled, .post-type-hurrytimer_countdown .ui-widget-content .ui-state-disabled, .post-type-hurrytimer_countdown .ui-widget-header .ui-state-disabled {
+    opacity: .35;
+    filter: Alpha(Opacity=35);
+    background-image: none; }
+  .post-type-hurrytimer_countdown .ui-state-disabled .ui-icon {
+    filter: Alpha(Opacity=35); }
+  .post-type-hurrytimer_countdown .ui-icon {
+    width: 16px;
+    height: 16px; }
+  .post-type-hurrytimer_countdown .ui-icon, .post-type-hurrytimer_countdown .ui-widget-content .ui-icon {
+    background-image: url("../images/ui-icons_444444_256x240.png"); }
+  .post-type-hurrytimer_countdown .ui-widget-header .ui-icon {
+    background-image: url("../images/ui-icons_444444_256x240.png"); }
+  .post-type-hurrytimer_countdown .ui-state-hover .ui-icon, .post-type-hurrytimer_countdown .ui-state-focus .ui-icon, .post-type-hurrytimer_countdown .ui-button:hover .ui-icon, .post-type-hurrytimer_countdown .ui-button:focus .ui-icon {
+    background-image: url("../images/ui-icons_555555_256x240.png"); }
+  .post-type-hurrytimer_countdown .ui-state-active .ui-icon, .post-type-hurrytimer_countdown .ui-button:active .ui-icon {
+    background-image: url("../images/ui-icons_ffffff_256x240.png"); }
+  .post-type-hurrytimer_countdown .ui-state-highlight .ui-icon, .post-type-hurrytimer_countdown .ui-button .ui-state-highlight.ui-icon {
+    background-image: url("../images/ui-icons_777620_256x240.png"); }
+  .post-type-hurrytimer_countdown .ui-state-error .ui-icon, .post-type-hurrytimer_countdown .ui-state-error-text .ui-icon {
+    background-image: url("../images/ui-icons_cc0000_256x240.png"); }
+  .post-type-hurrytimer_countdown .ui-button .ui-icon {
+    background-image: url("images/ui-icons_777777_256x240.png"); }
+  .post-type-hurrytimer_countdown .ui-icon-blank {
+    background-position: 16px 16px; }
+  .post-type-hurrytimer_countdown .ui-icon-caret-1-n {
+    background-position: 0 0; }
+  .post-type-hurrytimer_countdown .ui-icon-caret-1-ne {
+    background-position: -16px 0; }
+  .post-type-hurrytimer_countdown .ui-icon-caret-1-e {
+    background-position: -32px 0; }
+  .post-type-hurrytimer_countdown .ui-icon-caret-1-se {
+    background-position: -48px 0; }
+  .post-type-hurrytimer_countdown .ui-icon-caret-1-s {
+    background-position: -65px 0; }
+  .post-type-hurrytimer_countdown .ui-icon-caret-1-sw {
+    background-position: -80px 0; }
+  .post-type-hurrytimer_countdown .ui-icon-caret-1-w {
+    background-position: -96px 0; }
+  .post-type-hurrytimer_countdown .ui-icon-caret-1-nw {
+    background-position: -112px 0; }
+  .post-type-hurrytimer_countdown .ui-icon-caret-2-n-s {
+    background-position: -128px 0; }
+  .post-type-hurrytimer_countdown .ui-icon-caret-2-e-w {
+    background-position: -144px 0; }
+  .post-type-hurrytimer_countdown .ui-icon-triangle-1-n {
+    background-position: 0 -16px; }
+  .post-type-hurrytimer_countdown .ui-icon-triangle-1-ne {
+    background-position: -16px -16px; }
+  .post-type-hurrytimer_countdown .ui-icon-triangle-1-e {
+    background-position: -32px -16px; }
+  .post-type-hurrytimer_countdown .ui-icon-triangle-1-se {
+    background-position: -48px -16px; }
+  .post-type-hurrytimer_countdown .ui-icon-triangle-1-s {
+    background-position: -65px -16px; }
+  .post-type-hurrytimer_countdown .ui-icon-triangle-1-sw {
+    background-position: -80px -16px; }
+  .post-type-hurrytimer_countdown .ui-icon-triangle-1-w {
+    background-position: -96px -16px; }
+  .post-type-hurrytimer_countdown .ui-icon-triangle-1-nw {
+    background-position: -112px -16px; }
+  .post-type-hurrytimer_countdown .ui-icon-triangle-2-n-s {
+    background-position: -128px -16px; }
+  .post-type-hurrytimer_countdown .ui-icon-triangle-2-e-w {
+    background-position: -144px -16px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrow-1-n {
+    background-position: 0 -32px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrow-1-ne {
+    background-position: -16px -32px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrow-1-e {
+    background-position: -32px -32px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrow-1-se {
+    background-position: -48px -32px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrow-1-s {
+    background-position: -65px -32px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrow-1-sw {
+    background-position: -80px -32px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrow-1-w {
+    background-position: -96px -32px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrow-1-nw {
+    background-position: -112px -32px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrow-2-n-s {
+    background-position: -128px -32px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrow-2-ne-sw {
+    background-position: -144px -32px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrow-2-e-w {
+    background-position: -160px -32px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrow-2-se-nw {
+    background-position: -176px -32px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowstop-1-n {
+    background-position: -192px -32px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowstop-1-e {
+    background-position: -208px -32px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowstop-1-s {
+    background-position: -224px -32px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowstop-1-w {
+    background-position: -240px -32px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowthick-1-n {
+    background-position: 1px -48px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowthick-1-ne {
+    background-position: -16px -48px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowthick-1-e {
+    background-position: -32px -48px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowthick-1-se {
+    background-position: -48px -48px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowthick-1-s {
+    background-position: -64px -48px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowthick-1-sw {
+    background-position: -80px -48px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowthick-1-w {
+    background-position: -96px -48px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowthick-1-nw {
+    background-position: -112px -48px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowthick-2-n-s {
+    background-position: -128px -48px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowthick-2-ne-sw {
+    background-position: -144px -48px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowthick-2-e-w {
+    background-position: -160px -48px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowthick-2-se-nw {
+    background-position: -176px -48px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowthickstop-1-n {
+    background-position: -192px -48px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowthickstop-1-e {
+    background-position: -208px -48px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowthickstop-1-s {
+    background-position: -224px -48px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowthickstop-1-w {
+    background-position: -240px -48px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowreturnthick-1-w {
+    background-position: 0 -64px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowreturnthick-1-n {
+    background-position: -16px -64px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowreturnthick-1-e {
+    background-position: -32px -64px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowreturnthick-1-s {
+    background-position: -48px -64px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowreturn-1-w {
+    background-position: -64px -64px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowreturn-1-n {
+    background-position: -80px -64px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowreturn-1-e {
+    background-position: -96px -64px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowreturn-1-s {
+    background-position: -112px -64px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowrefresh-1-w {
+    background-position: -128px -64px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowrefresh-1-n {
+    background-position: -144px -64px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowrefresh-1-e {
+    background-position: -160px -64px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrowrefresh-1-s {
+    background-position: -176px -64px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrow-4 {
+    background-position: 0 -80px; }
+  .post-type-hurrytimer_countdown .ui-icon-arrow-4-diag {
+    background-position: -16px -80px; }
+  .post-type-hurrytimer_countdown .ui-icon-extlink {
+    background-position: -32px -80px; }
+  .post-type-hurrytimer_countdown .ui-icon-newwin {
+    background-position: -48px -80px; }
+  .post-type-hurrytimer_countdown .ui-icon-refresh {
+    background-position: -64px -80px; }
+  .post-type-hurrytimer_countdown .ui-icon-shuffle {
+    background-position: -80px -80px; }
+  .post-type-hurrytimer_countdown .ui-icon-transfer-e-w {
+    background-position: -96px -80px; }
+  .post-type-hurrytimer_countdown .ui-icon-transferthick-e-w {
+    background-position: -112px -80px; }
+  .post-type-hurrytimer_countdown .ui-icon-folder-collapsed {
+    background-position: 0 -96px; }
+  .post-type-hurrytimer_countdown .ui-icon-folder-open {
+    background-position: -16px -96px; }
+  .post-type-hurrytimer_countdown .ui-icon-document {
+    background-position: -32px -96px; }
+  .post-type-hurrytimer_countdown .ui-icon-document-b {
+    background-position: -48px -96px; }
+  .post-type-hurrytimer_countdown .ui-icon-note {
+    background-position: -64px -96px; }
+  .post-type-hurrytimer_countdown .ui-icon-mail-closed {
+    background-position: -80px -96px; }
+  .post-type-hurrytimer_countdown .ui-icon-mail-open {
+    background-position: -96px -96px; }
+  .post-type-hurrytimer_countdown .ui-icon-suitcase {
+    background-position: -112px -96px; }
+  .post-type-hurrytimer_countdown .ui-icon-comment {
+    background-position: -128px -96px; }
+  .post-type-hurrytimer_countdown .ui-icon-person {
+    background-position: -144px -96px; }
+  .post-type-hurrytimer_countdown .ui-icon-print {
+    background-position: -160px -96px; }
+  .post-type-hurrytimer_countdown .ui-icon-trash {
+    background-position: -176px -96px; }
+  .post-type-hurrytimer_countdown .ui-icon-locked {
+    background-position: -192px -96px; }
+  .post-type-hurrytimer_countdown .ui-icon-unlocked {
+    background-position: -208px -96px; }
+  .post-type-hurrytimer_countdown .ui-icon-bookmark {
+    background-position: -224px -96px; }
+  .post-type-hurrytimer_countdown .ui-icon-tag {
+    background-position: -240px -96px; }
+  .post-type-hurrytimer_countdown .ui-icon-home {
+    background-position: 0 -112px; }
+  .post-type-hurrytimer_countdown .ui-icon-flag {
+    background-position: -16px -112px; }
+  .post-type-hurrytimer_countdown .ui-icon-calendar {
+    background-position: -32px -112px; }
+  .post-type-hurrytimer_countdown .ui-icon-cart {
+    background-position: -48px -112px; }
+  .post-type-hurrytimer_countdown .ui-icon-pencil {
+    background-position: -64px -112px; }
+  .post-type-hurrytimer_countdown .ui-icon-clock {
+    background-position: -80px -112px; }
+  .post-type-hurrytimer_countdown .ui-icon-disk {
+    background-position: -96px -112px; }
+  .post-type-hurrytimer_countdown .ui-icon-calculator {
+    background-position: -112px -112px; }
+  .post-type-hurrytimer_countdown .ui-icon-zoomin {
+    background-position: -128px -112px; }
+  .post-type-hurrytimer_countdown .ui-icon-zoomout {
+    background-position: -144px -112px; }
+  .post-type-hurrytimer_countdown .ui-icon-search {
+    background-position: -160px -112px; }
+  .post-type-hurrytimer_countdown .ui-icon-wrench {
+    background-position: -176px -112px; }
+  .post-type-hurrytimer_countdown .ui-icon-gear {
+    background-position: -192px -112px; }
+  .post-type-hurrytimer_countdown .ui-icon-heart {
+    background-position: -208px -112px; }
+  .post-type-hurrytimer_countdown .ui-icon-star {
+    background-position: -224px -112px; }
+  .post-type-hurrytimer_countdown .ui-icon-link {
+    background-position: -240px -112px; }
+  .post-type-hurrytimer_countdown .ui-icon-cancel {
+    background-position: 0 -128px; }
+  .post-type-hurrytimer_countdown .ui-icon-plus {
+    background-position: -16px -128px; }
+  .post-type-hurrytimer_countdown .ui-icon-plusthick {
+    background-position: -32px -128px; }
+  .post-type-hurrytimer_countdown .ui-icon-minus {
+    background-position: -48px -128px; }
+  .post-type-hurrytimer_countdown .ui-icon-minusthick {
+    background-position: -64px -128px; }
+  .post-type-hurrytimer_countdown .ui-icon-close {
+    background-position: -80px -128px; }
+  .post-type-hurrytimer_countdown .ui-icon-closethick {
+    background-position: -96px -128px; }
+  .post-type-hurrytimer_countdown .ui-icon-key {
+    background-position: -112px -128px; }
+  .post-type-hurrytimer_countdown .ui-icon-lightbulb {
+    background-position: -128px -128px; }
+  .post-type-hurrytimer_countdown .ui-icon-scissors {
+    background-position: -144px -128px; }
+  .post-type-hurrytimer_countdown .ui-icon-clipboard {
+    background-position: -160px -128px; }
+  .post-type-hurrytimer_countdown .ui-icon-copy {
+    background-position: -176px -128px; }
+  .post-type-hurrytimer_countdown .ui-icon-contact {
+    background-position: -192px -128px; }
+  .post-type-hurrytimer_countdown .ui-icon-image {
+    background-position: -208px -128px; }
+  .post-type-hurrytimer_countdown .ui-icon-video {
+    background-position: -224px -128px; }
+  .post-type-hurrytimer_countdown .ui-icon-script {
+    background-position: -240px -128px; }
+  .post-type-hurrytimer_countdown .ui-icon-alert {
+    background-position: 0 -144px; }
+  .post-type-hurrytimer_countdown .ui-icon-info {
+    background-position: -16px -144px; }
+  .post-type-hurrytimer_countdown .ui-icon-notice {
+    background-position: -32px -144px; }
+  .post-type-hurrytimer_countdown .ui-icon-help {
+    background-position: -48px -144px; }
+  .post-type-hurrytimer_countdown .ui-icon-check {
+    background-position: -64px -144px; }
+  .post-type-hurrytimer_countdown .ui-icon-bullet {
+    background-position: -80px -144px; }
+  .post-type-hurrytimer_countdown .ui-icon-radio-on {
+    background-position: -96px -144px; }
+  .post-type-hurrytimer_countdown .ui-icon-radio-off {
+    background-position: -112px -144px; }
+  .post-type-hurrytimer_countdown .ui-icon-pin-w {
+    background-position: -128px -144px; }
+  .post-type-hurrytimer_countdown .ui-icon-pin-s {
+    background-position: -144px -144px; }
+  .post-type-hurrytimer_countdown .ui-icon-play {
+    background-position: 0 -160px; }
+  .post-type-hurrytimer_countdown .ui-icon-pause {
+    background-position: -16px -160px; }
+  .post-type-hurrytimer_countdown .ui-icon-seek-next {
+    background-position: -32px -160px; }
+  .post-type-hurrytimer_countdown .ui-icon-seek-prev {
+    background-position: -48px -160px; }
+  .post-type-hurrytimer_countdown .ui-icon-seek-end {
+    background-position: -64px -160px; }
+  .post-type-hurrytimer_countdown .ui-icon-seek-start {
+    background-position: -80px -160px; }
+  .post-type-hurrytimer_countdown .ui-icon-seek-first {
+    background-position: -80px -160px; }
+  .post-type-hurrytimer_countdown .ui-icon-stop {
+    background-position: -96px -160px; }
+  .post-type-hurrytimer_countdown .ui-icon-eject {
+    background-position: -112px -160px; }
+  .post-type-hurrytimer_countdown .ui-icon-volume-off {
+    background-position: -128px -160px; }
+  .post-type-hurrytimer_countdown .ui-icon-volume-on {
+    background-position: -144px -160px; }
+  .post-type-hurrytimer_countdown .ui-icon-power {
+    background-position: 0 -176px; }
+  .post-type-hurrytimer_countdown .ui-icon-signal-diag {
+    background-position: -16px -176px; }
+  .post-type-hurrytimer_countdown .ui-icon-signal {
+    background-position: -32px -176px; }
+  .post-type-hurrytimer_countdown .ui-icon-battery-0 {
+    background-position: -48px -176px; }
+  .post-type-hurrytimer_countdown .ui-icon-battery-1 {
+    background-position: -64px -176px; }
+  .post-type-hurrytimer_countdown .ui-icon-battery-2 {
+    background-position: -80px -176px; }
+  .post-type-hurrytimer_countdown .ui-icon-battery-3 {
+    background-position: -96px -176px; }
+  .post-type-hurrytimer_countdown .ui-icon-circle-plus {
+    background-position: 0 -192px; }
+  .post-type-hurrytimer_countdown .ui-icon-circle-minus {
+    background-position: -16px -192px; }
+  .post-type-hurrytimer_countdown .ui-icon-circle-close {
+    background-position: -32px -192px; }
+  .post-type-hurrytimer_countdown .ui-icon-circle-triangle-e {
+    background-position: -48px -192px; }
+  .post-type-hurrytimer_countdown .ui-icon-circle-triangle-s {
+    background-position: -64px -192px; }
+  .post-type-hurrytimer_countdown .ui-icon-circle-triangle-w {
+    background-position: -80px -192px; }
+  .post-type-hurrytimer_countdown .ui-icon-circle-triangle-n {
+    background-position: -96px -192px; }
+  .post-type-hurrytimer_countdown .ui-icon-circle-arrow-e {
+    background-position: -112px -192px; }
+  .post-type-hurrytimer_countdown .ui-icon-circle-arrow-s {
+    background-position: -128px -192px; }
+  .post-type-hurrytimer_countdown .ui-icon-circle-arrow-w {
+    background-position: -144px -192px; }
+  .post-type-hurrytimer_countdown .ui-icon-circle-arrow-n {
+    background-position: -160px -192px; }
+  .post-type-hurrytimer_countdown .ui-icon-circle-zoomin {
+    background-position: -176px -192px; }
+  .post-type-hurrytimer_countdown .ui-icon-circle-zoomout {
+    background-position: -192px -192px; }
+  .post-type-hurrytimer_countdown .ui-icon-circle-check {
+    background-position: -208px -192px; }
+  .post-type-hurrytimer_countdown .ui-icon-circlesmall-plus {
+    background-position: 0 -208px; }
+  .post-type-hurrytimer_countdown .ui-icon-circlesmall-minus {
+    background-position: -16px -208px; }
+  .post-type-hurrytimer_countdown .ui-icon-circlesmall-close {
+    background-position: -32px -208px; }
+  .post-type-hurrytimer_countdown .ui-icon-squaresmall-plus {
+    background-position: -48px -208px; }
+  .post-type-hurrytimer_countdown .ui-icon-squaresmall-minus {
+    background-position: -64px -208px; }
+  .post-type-hurrytimer_countdown .ui-icon-squaresmall-close {
+    background-position: -80px -208px; }
+  .post-type-hurrytimer_countdown .ui-icon-grip-dotted-vertical {
+    background-position: 0 -224px; }
+  .post-type-hurrytimer_countdown .ui-icon-grip-dotted-horizontal {
+    background-position: -16px -224px; }
+  .post-type-hurrytimer_countdown .ui-icon-grip-solid-vertical {
+    background-position: -32px -224px; }
+  .post-type-hurrytimer_countdown .ui-icon-grip-solid-horizontal {
+    background-position: -48px -224px; }
+  .post-type-hurrytimer_countdown .ui-icon-gripsmall-diagonal-se {
+    background-position: -64px -224px; }
+  .post-type-hurrytimer_countdown .ui-icon-grip-diagonal-se {
+    background-position: -80px -224px; }
+  .post-type-hurrytimer_countdown .ui-corner-all, .post-type-hurrytimer_countdown .ui-corner-top, .post-type-hurrytimer_countdown .ui-corner-left, .post-type-hurrytimer_countdown .ui-corner-tl {
+    border-top-left-radius: 3px; }
+  .post-type-hurrytimer_countdown .ui-corner-all, .post-type-hurrytimer_countdown .ui-corner-top, .post-type-hurrytimer_countdown .ui-corner-right, .post-type-hurrytimer_countdown .ui-corner-tr {
+    border-top-right-radius: 3px; }
+  .post-type-hurrytimer_countdown .ui-corner-all, .post-type-hurrytimer_countdown .ui-corner-bottom, .post-type-hurrytimer_countdown .ui-corner-left, .post-type-hurrytimer_countdown .ui-corner-bl {
+    border-bottom-left-radius: 3px; }
+  .post-type-hurrytimer_countdown .ui-corner-all, .post-type-hurrytimer_countdown .ui-corner-bottom, .post-type-hurrytimer_countdown .ui-corner-right, .post-type-hurrytimer_countdown .ui-corner-br {
+    border-bottom-right-radius: 3px; }
+  .post-type-hurrytimer_countdown .ui-widget-overlay {
+    background: #aaa;
+    opacity: .003;
+    filter: Alpha(Opacity=0.3); }
+  .post-type-hurrytimer_countdown .ui-widget-shadow {
+    -webkit-box-shadow: 0 0 5px #666;
+    box-shadow: 0 0 5px #666; }
+  .post-type-hurrytimer_countdown .ui-timepicker-div .ui-widget-header {
+    margin-bottom: 8px; }
+  .post-type-hurrytimer_countdown .ui-timepicker-div dl {
+    text-align: left; }
+  .post-type-hurrytimer_countdown .ui-timepicker-div dl dt {
+    float: left;
+    clear: left;
+    padding: 0 0 0 5px; }
+  .post-type-hurrytimer_countdown .ui-timepicker-div dl dd {
+    margin: 0 10px 10px 40%; }
+  .post-type-hurrytimer_countdown .ui-timepicker-div td {
+    font-size: 90%; }
+  .post-type-hurrytimer_countdown .ui-tpicker-grid-label {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0; }
+  .post-type-hurrytimer_countdown .ui-timepicker-div .ui_tpicker_unit_hide {
+    display: none; }
+  .post-type-hurrytimer_countdown .ui-timepicker-div .ui_tpicker_time .ui_tpicker_time_input {
+    background: none;
+    color: inherit;
+    border: none;
+    outline: none;
+    border-bottom: solid 1px #555;
+    width: 95%; }
+  .post-type-hurrytimer_countdown .ui-timepicker-div .ui_tpicker_time .ui_tpicker_time_input:focus {
+    border-bottom-color: #aaa; }
+  .post-type-hurrytimer_countdown .ui-timepicker-rtl {
+    direction: rtl; }
+  .post-type-hurrytimer_countdown .ui-timepicker-rtl dl {
+    text-align: right;
+    padding: 0 5px 0 0; }
+  .post-type-hurrytimer_countdown .ui-timepicker-rtl dl dt {
+    float: right;
+    clear: right; }
+  .post-type-hurrytimer_countdown .ui-timepicker-rtl dl dd {
+    margin: 0 40% 10px 10px; }
+  .post-type-hurrytimer_countdown .ui-timepicker-div.ui-timepicker-oneLine {
+    padding-right: 2px; }
+  .post-type-hurrytimer_countdown .ui-timepicker-div.ui-timepicker-oneLine .ui_tpicker_time,
+  .post-type-hurrytimer_countdown .ui-timepicker-div.ui-timepicker-oneLine dt {
+    display: none; }
+  .post-type-hurrytimer_countdown .ui-timepicker-div.ui-timepicker-oneLine .ui_tpicker_time_label {
+    display: block;
+    padding-top: 2px; }
+  .post-type-hurrytimer_countdown .ui-timepicker-div.ui-timepicker-oneLine dl {
+    text-align: right; }
+  .post-type-hurrytimer_countdown .ui-timepicker-div.ui-timepicker-oneLine dl dd,
+  .post-type-hurrytimer_countdown .ui-timepicker-div.ui-timepicker-oneLine dl dd > div {
+    display: inline-block;
+    margin: 0; }
+  .post-type-hurrytimer_countdown .ui-timepicker-div.ui-timepicker-oneLine dl dd.ui_tpicker_minute:before,
+  .post-type-hurrytimer_countdown .ui-timepicker-div.ui-timepicker-oneLine dl dd.ui_tpicker_second:before {
+    content: ':';
+    display: inline-block; }
+  .post-type-hurrytimer_countdown .ui-timepicker-div.ui-timepicker-oneLine dl dd.ui_tpicker_millisec:before,
+  .post-type-hurrytimer_countdown .ui-timepicker-div.ui-timepicker-oneLine dl dd.ui_tpicker_microsec:before {
+    content: '.';
+    display: inline-block; }
+  .post-type-hurrytimer_countdown .ui-timepicker-div.ui-timepicker-oneLine .ui_tpicker_unit_hide,
+  .post-type-hurrytimer_countdown .ui-timepicker-div.ui-timepicker-oneLine .ui_tpicker_unit_hide:before {
+    display: none; }
+  .post-type-hurrytimer_countdown .blocker {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    z-index: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center; }
+  .post-type-hurrytimer_countdown .blocker:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.05em; }
+  .post-type-hurrytimer_countdown .blocker.behind {
+    background-color: transparent; }
+  .post-type-hurrytimer_countdown .modal {
+    display: none;
+    vertical-align: middle;
+    position: relative;
+    z-index: 2;
+    max-width: 500px;
+    box-sizing: border-box;
+    width: 90%;
+    background: #fff;
+    padding: 15px 30px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+    text-align: left; }
+  .post-type-hurrytimer_countdown .hurryt-upgrade-alert-close:before {
+    content: "\f335";
+    position: absolute;
+    font-family: dashicons;
+    right: 0;
+    top: 0;
+    font-size: 25px;
+    color: #616161; }
+  .post-type-hurrytimer_countdown .modal a.close-modal {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    display: block; }
+  .post-type-hurrytimer_countdown .modal-spinner {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    padding: 12px 16px;
+    border-radius: 5px;
+    background-color: #111;
+    height: 20px; }
+  .post-type-hurrytimer_countdown .modal-spinner > div {
+    border-radius: 100px;
+    background-color: #fff;
+    height: 20px;
+    width: 2px;
+    margin: 0 1px;
+    display: inline-block;
+    -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation: sk-stretchdelay 1.2s infinite ease-in-out; }
+  .post-type-hurrytimer_countdown .modal-spinner .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s; }
+  .post-type-hurrytimer_countdown .modal-spinner .rect3 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s; }
+  .post-type-hurrytimer_countdown .modal-spinner .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s; }
+
+@-webkit-keyframes sk-stretchdelay {
+  0%, 40%, 100% {
+    -webkit-transform: scaleY(0.5); }
+  20% {
+    -webkit-transform: scaleY(1); } }
+
+@keyframes sk-stretchdelay {
+  0%, 40%, 100% {
+    transform: scaleY(0.5);
+    -webkit-transform: scaleY(0.5); }
+  20% {
+    transform: scaleY(1);
+    -webkit-transform: scaleY(1); } }
+  .post-type-hurrytimer_countdown .ht-bt {
+    border-top-width: 1px;
+    border-top-style: solid; }
+  .post-type-hurrytimer_countdown .ht-bb {
+    border-bottom-width: 1px;
+    border-bottom-style: solid; }
+  .post-type-hurrytimer_countdown .ht-b-gray-lighter {
+    border-color: #f1f1f1; }
+  .post-type-hurrytimer_countdown .ht-py-20 {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  .post-type-hurrytimer_countdown .ht-text-center {
+    text-align: center; }
+  .post-type-hurrytimer_countdown .ht-p-10 {
+    padding: 10px; }
+  .post-type-hurrytimer_countdown .hurryt-w-full {
+    width: 100% !important; }
+  .post-type-hurrytimer_countdown .postbox .inside,
+  .post-type-hurrytimer_countdown .stuffbox .inside {
+    line-height: normal; }
+  .post-type-hurrytimer_countdown #poststuff .inside {
+    margin: 0 !important; }
+  .post-type-hurrytimer_countdown .slugdiv {
+    display: none !important; }
+  .post-type-hurrytimer_countdown .hidden {
+    display: none !important; }
+  .post-type-hurrytimer_countdown .nav-tab:first-child {
+    margin-left: 0; }
+  .post-type-hurrytimer_countdown #hurrytimer-settings .inside {
+    padding: 0;
+    margin: 0;
+    display: flex; }
+  .post-type-hurrytimer_countdown .handlediv {
+    display: none !important; }
+  .post-type-hurrytimer_countdown .hurrytimer-input-toggle {
+    position: relative;
+    display: inline-block;
+    width: 38px;
+    height: 17px;
+    border-radius: 38px;
+    background-color: #999;
+    padding: 2px;
+    outline: none; }
+    .post-type-hurrytimer_countdown .hurrytimer-input-toggle:before {
+      content: "";
+      display: block;
+      width: 17px;
+      height: 17px;
+      background-color: #fff;
+      border-radius: 17px;
+      margin-left: 0;
+      transition: margin 300ms ease; }
+  .post-type-hurrytimer_countdown .hurrytimer-input-toggle.is-on {
+    background-color: #7028E4; }
+    .post-type-hurrytimer_countdown .hurrytimer-input-toggle.is-on:before {
+      margin-left: 21px; }
+  .post-type-hurrytimer_countdown .hurrytimer-tabs {
+    flex-grow: 1; }
+    .post-type-hurrytimer_countdown .hurrytimer-tabs > ul {
+      margin: 0;
+      padding: 0;
+      background-color: #fafafa;
+      width: 20%;
+      position: relative;
+      border-right: 1px solid #eee;
+      float: left;
+      box-sizing: border-box; }
+      .post-type-hurrytimer_countdown .hurrytimer-tabs > ul:after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 9999em;
+        position: absolute;
+        bottom: -9999em;
+        left: 0;
+        background-color: #fafafa;
+        border-right: 1px solid #eee; }
+    .post-type-hurrytimer_countdown .hurrytimer-tabs > ul li {
+      margin: 0; }
+      .post-type-hurrytimer_countdown .hurrytimer-tabs > ul li a {
+        text-decoration: none;
+        padding: 5px 0;
+        margin: 0;
+        padding: 10px;
+        display: block;
+        box-shadow: none;
+        text-decoration: none;
+        border-bottom: 1px solid #eee; }
+      .post-type-hurrytimer_countdown .hurrytimer-tabs > ul li.active a {
+        background-color: #eee; }
+  .post-type-hurrytimer_countdown .hurrytimer-tabcontent {
+    box-sizing: border-box;
+    display: none; }
+    .post-type-hurrytimer_countdown .hurrytimer-tabcontent.active {
+      display: block; }
+  .post-type-hurrytimer_countdown div[id*="hurrytimer-countdown"]:not(#hurrytimer-countdown__shortcode) .inside {
+    margin: 0 !important;
+    padding: 0 !important; }
+  .post-type-hurrytimer_countdown .hurrytimer-inner-tabs {
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative; }
+    .post-type-hurrytimer_countdown .hurrytimer-inner-tabs li {
+      padding-right: 10px;
+      padding-left: 10px;
+      border-right: 1px solid #ddd;
+      margin: 0;
+      float: left; }
+      .post-type-hurrytimer_countdown .hurrytimer-inner-tabs li.preview {
+        position: absolute;
+        right: 5px;
+        top: 50%;
+        transform: translateY(-50%); }
+      .post-type-hurrytimer_countdown .hurrytimer-inner-tabs li:last-child {
+        border-right: none; }
+      .post-type-hurrytimer_countdown .hurrytimer-inner-tabs li a {
+        text-decoration: none;
+        color: #666666; }
+      .post-type-hurrytimer_countdown .hurrytimer-inner-tabs li.active a {
+        color: #7028E4; }
+  .post-type-hurrytimer_countdown .hurrytimer-subtabcontent {
+    display: none; }
+  .post-type-hurrytimer_countdown .hurrytimer-subtabcontent.active {
+    display: block; }
+  .post-type-hurrytimer_countdown .hurrytimer-subtabbar {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #eee; }
+    .post-type-hurrytimer_countdown .hurrytimer-subtabbar li {
+      flex: 1;
+      margin: 0;
+      border-right: 1px solid #eee; }
+      .post-type-hurrytimer_countdown .hurrytimer-subtabbar li:last-child {
+        border-radius: 0; }
+      .post-type-hurrytimer_countdown .hurrytimer-subtabbar li a {
+        text-decoration: none;
+        box-shadow: none;
+        margin: 0;
+        padding: 8px 5px;
+        color: #808080;
+        display: block;
+        text-align: center;
+        border-bottom: none; }
+      .post-type-hurrytimer_countdown .hurrytimer-subtabbar li.active a {
+        pointer-events: none;
+        color: #333;
+        font-weight: bold; }
+      .post-type-hurrytimer_countdown .hurrytimer-subtabbar li.active {
+        border-bottom: 2px outset #ddd; }
+  .post-type-hurrytimer_countdown .hurrytimer-tabbar {
+    outline: none;
+    margin: 0;
+    position: relative;
+    background-color: #fafafa;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+    .post-type-hurrytimer_countdown .hurrytimer-tabbar a {
+      outline: none;
+      box-shadow: none;
+      padding: 10px 15px;
+      color: #555;
+      text-decoration: none;
+      display: block; }
+    .post-type-hurrytimer_countdown .hurrytimer-tabbar li {
+      border-bottom: 1px solid #eee;
+      margin-bottom: 0; }
+      .post-type-hurrytimer_countdown .hurrytimer-tabbar li:last-child {
+        border-bottom: none; }
+      .post-type-hurrytimer_countdown .hurrytimer-tabbar li.active {
+        background: #eee; }
+  .post-type-hurrytimer_countdown .form-table {
+    width: 100%;
+    max-width: 800px; }
+  .post-type-hurrytimer_countdown #hurrytimer-countdown-tabs-styling input[type=number] {
+    width: 100px;
+    display: block; }
+  .post-type-hurrytimer_countdown .form-table td select,
+  .post-type-hurrytimer_countdown .form-table td input[type=text],
+  .post-type-hurrytimer_countdown .form-table td input[type=number],
+  .post-type-hurrytimer_countdown .form-table td textarea,
+  .post-type-hurrytimer_countdown .hurrytimer-form-field select,
+  .post-type-hurrytimer_countdown .hurrytimer-form-field input[type=text],
+  .post-type-hurrytimer_countdown .hurrytimer-form-field input[type=number],
+  .post-type-hurrytimer_countdown .hurrytimer-form-field textarea {
+    width: 100%;
+    border-radius: 3px; }
+    .post-type-hurrytimer_countdown .form-table td select:focus,
+    .post-type-hurrytimer_countdown .form-table td input[type=text]:focus,
+    .post-type-hurrytimer_countdown .form-table td input[type=number]:focus,
+    .post-type-hurrytimer_countdown .form-table td textarea:focus,
+    .post-type-hurrytimer_countdown .hurrytimer-form-field select:focus,
+    .post-type-hurrytimer_countdown .hurrytimer-form-field input[type=text]:focus,
+    .post-type-hurrytimer_countdown .hurrytimer-form-field input[type=number]:focus,
+    .post-type-hurrytimer_countdown .hurrytimer-form-field textarea:focus {
+      border-width: 2px; }
+  .post-type-hurrytimer_countdown .form-table td:first-child {
+    width: 150px;
+    font-size: 13px; }
+  .post-type-hurrytimer_countdown .select2-container--default {
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07); }
+    .post-type-hurrytimer_countdown .select2-container--default ul {
+      background: none; }
+  .post-type-hurrytimer_countdown .hurrytimer-wc-products-selection + .select2-container--default {
+    width: 100% !important;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07);
+    background-color: #fff;
+    color: #32373c;
+    outline: 0;
+    transition: 50ms border-color ease-in-out; }
+    .post-type-hurrytimer_countdown .hurrytimer-wc-products-selection + .select2-container--default:focus {
+      border-color: #7028E4;
+      border-width: 2px; }
+  .post-type-hurrytimer_countdown .select2-container--default .select2-selection--multiple {
+    border: none;
+    border-radius: 0;
+    background: none; }
+  .post-type-hurrytimer_countdown .select2-container--default.select2-container--focus .select2-selection--multiple {
+    border: none; }
+  .post-type-hurrytimer_countdown .select2-container--default.select2-container--focus {
+    border-color: #5b9dd9;
+    box-shadow: 0 0 2px rgba(30, 140, 190, 0.8); }
+  .post-type-hurrytimer_countdown ul.select2-selection__rendered {
+    width: 100%;
+    background: #fff; }
+  .post-type-hurrytimer_countdown .select2-container--default .select2-selection--multiple .select2-selection__choice {
+    border-color: #e4e4e4;
+    padding: 4px 9px; }
+  .post-type-hurrytimer_countdown .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    margin-right: 5px; }
+  .post-type-hurrytimer_countdown__schedule--normal td:last-child label {
+    display: block;
+    float: left; }
+  .post-type-hurrytimer_countdown__schedule--evergreen td:last-child label {
+    width: 100px; }
+  .post-type-hurrytimer_countdown__schedule--evergreen td:last-child input {
+    width: 70px; }
+  .post-type-hurrytimer_countdown__schedule--evergreen td:last-child label {
+    font-size: 12px; }
+  .post-type-hurrytimer_countdown__mode label:first-child {
+    margin-right: 10px; }
+  .post-type-hurrytimer_countdown__themes td {
+    text-align: center; }
+  .post-type-hurrytimer_countdown__themes img {
+    display: block;
+    margin: auto auto 10px auto; }
+  .post-type-hurrytimer_countdown .ht-panel-header {
+    border-top: 1px solid #f1f1f1; }
+    .post-type-hurrytimer_countdown .ht-panel-header td {
+      text-transform: uppercase;
+      font-size: 13px;
+      padding: 11px 8px; }
+  .post-type-hurrytimer_countdown .hurrytimer-form-row {
+    width: 100%; }
+    .post-type-hurrytimer_countdown .hurrytimer-form-row label {
+      font-size: 13px; }
+    .post-type-hurrytimer_countdown .hurrytimer-form-row .hurrytimer-form-col.col-1of4 {
+      box-sizing: border-box;
+      margin: 10px;
+      width: calc(25% - 20px);
+      float: left; }
+  .post-type-hurrytimer_countdown .form-table-title {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+    background: #f1f1f1;
+    /* margin: 10px auto; */
+    border-bottom: 1px solid #eee; }
+  .post-type-hurrytimer_countdown #hurrytimer-settings .form-field > td:first-chid > label {
+    font-weight: bold; }
+  .post-type-hurrytimer_countdown .hurrytimer-tabcontent .form-subfield-stacked {
+    float: left; }
+    .post-type-hurrytimer_countdown .hurrytimer-tabcontent .form-subfield-stacked input {
+      display: block;
+      width: 100% !important; }
+  .post-type-hurrytimer_countdown #hurrytimer-settings .description {
+    font-style: normal;
+    font-size: 13px;
+    color: #828282; }
+  .post-type-hurrytimer_countdown .style-settings {
+    box-sizing: border-box; }
+    .post-type-hurrytimer_countdown .style-settings input[type=text],
+    .post-type-hurrytimer_countdown .style-settings select {
+      width: 100%; }
+  .post-type-hurrytimer_countdown .hurrytimer-style-settings {
+    box-sizing: border-box;
+    display: block;
+    border: 1px solid #eee;
+    margin: 30px 10px;
+    border-radius: 2px;
+    padding: 0; }
+  .post-type-hurrytimer_countdown .hurrytimer-skins {
+    padding: 0 10px;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    width: 100%; }
+    .post-type-hurrytimer_countdown .hurrytimer-skins .hurrytimer-style-box {
+      box-sizing: border-box;
+      margin-top: 10px;
+      text-align: center;
+      border: 1px solid #eee;
+      border-radius: 3px 3px 0 0; }
+      .post-type-hurrytimer_countdown .hurrytimer-skins .hurrytimer-style-box.selected {
+        border-color: #1e88e5;
+        border-width: 2px; }
+        .post-type-hurrytimer_countdown .hurrytimer-skins .hurrytimer-style-box.selected:hover {
+          border-color: #1e88e5; }
+      .post-type-hurrytimer_countdown .hurrytimer-skins .hurrytimer-style-box input[type=radio] {
+        display: none; }
+      .post-type-hurrytimer_countdown .hurrytimer-skins .hurrytimer-style-box:hover {
+        border-color: #ccc;
+        cursor: pointer; }
+  .post-type-hurrytimer_countdown #hurrytimer-actions .description {
+    margin-left: 5px; }
+  .post-type-hurrytimer_countdown #hurrytimer-actions .hurrytimer-action-block {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px; }
+  .post-type-hurrytimer_countdown #hurrytimer-actions .hurryt-add-action {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  .post-type-hurrytimer_countdown #hurrytimer-customcss-tab {
+    padding: 10px; }
+  .post-type-hurrytimer_countdown #hurrytimer-upgrade-banner {
+    text-align: center; }
+    .post-type-hurrytimer_countdown #hurrytimer-upgrade-banner .inside {
+      padding: 0 !important; }
+    .post-type-hurrytimer_countdown #hurrytimer-upgrade-banner .hurryt-upgrade-banner {
+      padding: 20px 10px; }
+    .post-type-hurrytimer_countdown #hurrytimer-upgrade-banner img {
+      width: 200px; }
+    .post-type-hurrytimer_countdown #hurrytimer-upgrade-banner ul {
+      text-align: left; }
+    .post-type-hurrytimer_countdown #hurrytimer-upgrade-banner ul li {
+      line-height: 23px; }
+      .post-type-hurrytimer_countdown #hurrytimer-upgrade-banner ul li .dashicons {
+        color: #7028E4;
+        margin-right: 5px;
+        font-size: 1.4em;
+        vertical-align: middle; }
+      .post-type-hurrytimer_countdown #hurrytimer-upgrade-banner ul li i {
+        color: #999; }
+  .post-type-hurrytimer_countdown .hurryt-upgrade-pro {
+    text-align: center;
+    max-width: 450px;
+    margin: auto; }
+    .post-type-hurrytimer_countdown .hurryt-upgrade-pro .dashicons {
+      opacity: .5;
+      width: 40px;
+      height: 40px; }
+      .post-type-hurrytimer_countdown .hurryt-upgrade-pro .dashicons:before {
+        font-size: 40px; }
+    .post-type-hurrytimer_countdown .hurryt-upgrade-pro-note {
+      color: #757575;
+      margin-bottom: 10px; }
+  .post-type-hurrytimer_countdown #hurryt-upgrade-alert {
+    padding: 0;
+    border-radius: 2px; }
+  .post-type-hurrytimer_countdown .hurryt-upgrade-alert-header {
+    padding-top: 30px;
+    text-align: center; }
+  .post-type-hurrytimer_countdown .hurryt-upgrade-alert-body {
+    text-align: center;
+    padding: 10px 15px;
+    font-size: 15px;
+    line-height: 26px; }
+  .post-type-hurrytimer_countdown .hurryt-upgrade-alert-header .dashicons {
+    width: 50px;
+    height: 50px; }
+  .post-type-hurrytimer_countdown .hurryt-upgrade-alert-header .dashicons:before {
+    font-size: 50px; }
+  .post-type-hurrytimer_countdown .hurryt-upgrade-alert-header h3 {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0 0 0; }
+  .post-type-hurrytimer_countdown .hurryt-upgrade-alert-footer {
+    padding: 15px 15px;
+    text-align: center; }
+    .post-type-hurrytimer_countdown .hurryt-upgrade-alert-footer a:not(.hurryt-button) {
+      background: none;
+      border: none;
+      box-shadow: none; }
+      .post-type-hurrytimer_countdown .hurryt-upgrade-alert-footer a:not(.hurryt-button):hover {
+        text-decoration: underline; }
+  .post-type-hurrytimer_countdown .hurryt-appearance-feature-pro {
+    margin-left: 5px;
+    text-decoration: none;
+    padding: 0 5px; }
+    .post-type-hurrytimer_countdown .hurryt-appearance-feature-pro a {
+      font-style: italic;
+      text-decoration: none;
+      color: #616161; }
+    .post-type-hurrytimer_countdown .hurryt-appearance-feature-pro a:hover {
+      text-decoration: underline; }
+  .post-type-hurrytimer_countdown .hurryt-locked-feat-label {
+    background: #eee;
+    padding: 2px 5px;
+    border-radius: 2px;
+    font-weight: normal;
+    font-size: 10px;
+    margin-left: 5px; }
+  .post-type-hurrytimer_countdown #hurrytimer-tabcontent-general {
+    padding: 10px; }
+    .post-type-hurrytimer_countdown #hurrytimer-tabcontent-general table td {
+      padding-left: 0;
+      padding-right: 0;
+      margin: 0;
+      max-width: 100%; }
+    .post-type-hurrytimer_countdown #hurrytimer-tabcontent-general .hurrytimer-field-duration {
+      display: flex; }
+      .post-type-hurrytimer_countdown #hurrytimer-tabcontent-general .hurrytimer-field-duration label {
+        text-transform: uppercase;
+        font-size: 12px;
+        padding-right: 5px;
+        box-sizing: border-box; }
+        .post-type-hurrytimer_countdown #hurrytimer-tabcontent-general .hurrytimer-field-duration label:last-child {
+          margin-right: 0; }
+    .post-type-hurrytimer_countdown #hurrytimer-tabcontent-general .hurrytimer-field-mode input[type=radio] {
+      margin: 0; }
+    .post-type-hurrytimer_countdown #hurrytimer-tabcontent-general .hurrytimer-field-mode label {
+      margin-right: 10px; }
+    @media (min-width: 850px) and (max-width: 912px) {
+      .post-type-hurrytimer_countdown #hurrytimer-tabcontent-general .hurrytimer-field-duration {
+        flex-flow: wrap; }
+      .post-type-hurrytimer_countdown #hurrytimer-tabcontent-general .hurrytimer-field-duration label {
+        margin-bottom: 5px;
+        width: 50%; } }
+  .post-type-hurrytimer_countdown #hurrytimer-tabcontent-woocommerce {
+    padding: 10px; }
+    .post-type-hurrytimer_countdown #hurrytimer-tabcontent-woocommerce table {
+      max-width: 100%; }
+    .post-type-hurrytimer_countdown #hurrytimer-tabcontent-woocommerce table td {
+      padding-left: 0;
+      padding-right: 0; }
+  .post-type-hurrytimer_countdown .hurryt-button {
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    border-radius: 3px;
+    text-decoration: none;
+    box-shadow: none;
+    text-shadow: none; }
+    .post-type-hurrytimer_countdown .hurryt-button, .post-type-hurrytimer_countdown .hurryt-button:hover, .post-type-hurrytimer_countdown .hurryt-button:active {
+      background: #7028E4;
+      border-color: #7028E4;
+      color: #fff; }
+    .post-type-hurrytimer_countdown .hurryt-button:hover, .post-type-hurrytimer_countdown .hurryt-button:active {
+      opacity: .9; }
+  .post-type-hurrytimer_countdown .hurrytimer-list-shortcode {
+    background: #f1f1f1;
+    display: inline-block;
+    padding: 3px;
+    border-radius: 3px; }
+  .post-type-hurrytimer_countdown #minor-publishing-actions {
+    display: none; }
+  .post-type-hurrytimer_countdown .misc-pub-post-status:not(.misc-hurryt),
+  .post-type-hurrytimer_countdown #minor-publishing-actions,
+  .post-type-hurrytimer_countdown .misc-pub-visibility {
+    display: none; }
+  .post-type-hurrytimer_countdown #hurrytimer-settings input[type=text],
+  .post-type-hurrytimer_countdown #hurrytimer-settings input[type=number],
+  .post-type-hurrytimer_countdown #hurrytimer-settings select,
+  .post-type-hurrytimer_countdown #hurrytimer-settings textarea {
+    box-shadow: none;
+    border-radius: 3px; }
+  .post-type-hurrytimer_countdown #hurrytimer-settings .hurrytimer-tabs {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-top: none; }
+  .post-type-hurrytimer_countdown .CodeMirror {
+    border: 1px solid #ddd; }
+  .post-type-hurrytimer_countdown .hurrytimer-customcss-help span {
+    display: inline;
+    background: #f0f0f0;
+    padding: 3px;
+    border-radius: 3px; }
+  .post-type-hurrytimer_countdown .hurrytimer-upgrade-pro {
+    text-align: center;
+    padding: 10px;
+    max-width: 450px;
+    margin: auto; }
+    .post-type-hurrytimer_countdown .hurrytimer-upgrade-pro span {
+      width: 50px;
+      opacity: 0.3;
+      overflow: hidden;
+      height: 50px;
+      font-size: 50px; }
+    .post-type-hurrytimer_countdown .hurrytimer-upgrade-pro__copy {
+      color: #5d5d5d; }
+    .post-type-hurrytimer_countdown .hurrytimer-upgrade-pro__heading {
+      margin: 10px; }
+  .post-type-hurrytimer_countdown .hurrytimer-style-editor {
+    border-top: 1px solid #Eee; }
+  .post-type-hurrytimer_countdown .hurrytimer-style-control-label {
+    color: #757575;
+    font-size: 10px;
+    flex: 1;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: 500; }
+    .post-type-hurrytimer_countdown .hurrytimer-style-control-label .hurryt-form-control-addon {
+      float: right;
+      text-transform: none;
+      font-size: 13px; }
+  .post-type-hurrytimer_countdown .hurryt-w-full .select2-container {
+    width: 100% !important; }
+  .post-type-hurrytimer_countdown .hurrytimer-style-control-input {
+    flex: 3;
+    position: relative;
+    display: flex;
+    align-items: center; }
+    .post-type-hurrytimer_countdown .hurrytimer-style-control-input input:not([type="checkbox"]),
+    .post-type-hurrytimer_countdown .hurrytimer-style-control-input select,
+    .post-type-hurrytimer_countdown .hurrytimer-style-control-input textarea {
+      width: 100%; }
+  .post-type-hurrytimer_countdown .hurrytimer-style-control-field {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 33.33%; }
+    .post-type-hurrytimer_countdown .hurrytimer-style-control-field.is-group {
+      padding-top: 10px;
+      border-top: 1px solid #eee; }
+    .post-type-hurrytimer_countdown .hurrytimer-style-control-field .select2 {
+      border: 1px solid #ddd;
+      border-radius: 3px; }
+  @media (max-width: 560px) {
+    .post-type-hurrytimer_countdown .hurrytimer-style-control-field {
+      width: 50%; } }
+  @media (max-width: 500px) {
+    .post-type-hurrytimer_countdown .hurrytimer-style-control-field {
+      width: 100%; } }
+  .post-type-hurrytimer_countdown .hurrytimer-style-control-title {
+    margin: 0;
+    display: flex;
+    align-items: center; }
+    .post-type-hurrytimer_countdown .hurrytimer-style-control-title h3 {
+      font-size: 11px;
+      color: #555;
+      padding: 0;
+      margin: 0;
+      letter-spacing: 0;
+      text-transform: uppercase;
+      font-weight: 600; }
+  .post-type-hurrytimer_countdown .hurrytimer-style-control__pro-feature .dashicons {
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    vertical-align: middle; }
+  .post-type-hurrytimer_countdown .hurrytimer-style-control__pro-feature a {
+    font-size: 12px; }
+  .post-type-hurrytimer_countdown .hurrytimer-style-control-fields {
+    display: block; }
+  .post-type-hurrytimer_countdown .hurrytimer-style-control-group {
+    flex: 1; }
+  .post-type-hurrytimer_countdown #hurrytimer-campaign-preview {
+    text-align: center;
+    margin: 20px auto;
+    width: 100%; }
+  .post-type-hurrytimer_countdown .hurrytimer-headline p {
+    margin: auto; }
+  .post-type-hurrytimer_countdown .hurrytimer-accordion-heading {
+    position: relative;
+    border-top: 1px solid #eee;
+    padding: 10px;
+    cursor: pointer;
+    background: #f9f9f9; }
+    .post-type-hurrytimer_countdown .hurrytimer-accordion-heading:before {
+      content: "\f141";
+      font-family: dashicons;
+      position: absolute;
+      right: 5px;
+      font-size: 15px;
+      top: 50%;
+      color: #555;
+      transform: translateY(-50%); }
+  .post-type-hurrytimer_countdown .hurrytimer-accordion-item.active .hurrytimer-accordion-heading:before {
+    content: '\f140'; }
+  .post-type-hurrytimer_countdown .hurrytimer-accordion-item .hurrytimer-accordion-content {
+    display: none;
+    padding: 20px 10px;
+    background: #fff; }
+  .post-type-hurrytimer_countdown .hurrytimer-accordion-content[data-locked-feat] .hurrytimer-style-control-field {
+    opacity: .2; }
+  .post-type-hurrytimer_countdown .hurrytimer-accordion-content[data-locked-feat] .hurryt-upgrade-alert-inline {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center; }
+  .post-type-hurrytimer_countdown .hurrytimer-accordion-item.active .hurrytimer-accordion-content {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative; }
+    .post-type-hurrytimer_countdown .hurrytimer-accordion-item.active .hurrytimer-accordion-content .wp-picker-container.active {
+      position: relative; }
+    .post-type-hurrytimer_countdown .hurrytimer-accordion-item.active .hurrytimer-accordion-content .wp-picker-container .wp-color-result.button {
+      margin: 0; }
+    .post-type-hurrytimer_countdown .hurrytimer-accordion-item.active .hurrytimer-accordion-content .wp-picker-container .wp-picker-clear {
+      margin-top: -16px; }
+    .post-type-hurrytimer_countdown .hurrytimer-accordion-item.active .hurrytimer-accordion-content .wp-picker-holder {
+      position: absolute;
+      z-index: 999;
+      top: 25px; }
+    .post-type-hurrytimer_countdown .hurrytimer-accordion-item.active .hurrytimer-accordion-content input[type=number],
+    .post-type-hurrytimer_countdown .hurrytimer-accordion-item.active .hurrytimer-accordion-content input[type=text] {
+      border-radius: 2px; }
+  .post-type-hurrytimer_countdown .hurrytimer-input-slider.ui-slider {
+    border-color: #e2e2e2 !important;
+    flex: 1;
+    background: #e2e2e2;
+    border-radius: 0.5em;
+    height: 0.7em; }
+    .post-type-hurrytimer_countdown .hurrytimer-input-slider.ui-slider .ui-slider-handle {
+      left: 57%;
+      border-radius: 18px;
+      background-color: white;
+      border: white;
+      box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;
+      height: 20px;
+      width: 20px;
+      top: -6px; }
+    .post-type-hurrytimer_countdown .hurrytimer-input-slider.ui-slider + input {
+      width: 40px !important;
+      margin-left: 5px; }
+    .post-type-hurrytimer_countdown .hurrytimer-input-slider.ui-slider + input[type=number]::-webkit-inner-spin-button,
+    .post-type-hurrytimer_countdown .hurrytimer-input-slider.ui-slider + input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0; }
+  .post-type-hurrytimer_countdown .hurrytimer-toggle-display {
+    display: flex;
+    align-items: center; }
+  .post-type-hurrytimer_countdown #hurrytimer-settings .iris-picker {
+    top: 28px;
+    z-index: 100;
+    display: none;
+    position: absolute;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); }
+  .post-type-hurrytimer_countdown #hurrytimer-campaign-preview .hidden {
+    display: none !important; }
+  .post-type-hurrytimer_countdown .hurrytimer-action-block {
+    display: flex;
+    align-content: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee; }
+  @media (max-width: 650px) {
+    .post-type-hurrytimer_countdown .hurrytimer-action-block {
+      align-items: center; }
+    .post-type-hurrytimer_countdown .hurrytimer-action-block-choices,
+    .post-type-hurrytimer_countdown .hurrytimer-action-block-subfields {
+      flex-direction: column; } }
+  .post-type-hurrytimer_countdown .hurrytimer-action-block > div:first-child {
+    flex-grow: 1;
+    padding-right: 10px; }
+  .post-type-hurrytimer_countdown .hurrytimer-action-block-choices,
+  .post-type-hurrytimer_countdown .hurrytimer-action-block-subfields {
+    display: flex;
+    margin-bottom: 10px; }
+  .post-type-hurrytimer_countdown .hurrytimer-action-block-label {
+    width: 150px; }
+  .post-type-hurrytimer_countdown .hurrytimer-action-block-input {
+    flex-grow: 1; }
+    .post-type-hurrytimer_countdown .hurrytimer-action-block-input select,
+    .post-type-hurrytimer_countdown .hurrytimer-action-block-input input[type=text] {
+      width: 100%; }
+  .post-type-hurrytimer_countdown .hurrytimer-color-input {
+    padding-left: 30px; }
+  .post-type-hurrytimer_countdown .hurrytimer-style-control-input {
+    position: relative; }
+    .post-type-hurrytimer_countdown .hurrytimer-style-control-input .hurrytimer-color-preview {
+      height: 17px;
+      width: 20px;
+      background: transparent;
+      border-radius: 2px;
+      position: absolute;
+      left: 5px;
+      border: 1px solid #eee; }
+      .post-type-hurrytimer_countdown .hurrytimer-style-control-input .hurrytimer-color-preview.transparent {
+        background: url(../images/transparent.png); }
+    .post-type-hurrytimer_countdown .hurrytimer-style-control-input .hurrytimer-color-clear {
+      position: absolute;
+      right: 5px;
+      cursor: pointer;
+      color: #999; }
+  .post-type-hurrytimer_countdown .hurrytimer-shortcode {
+    font-family: monospace;
+    background: #ddd;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 15px; }
+  .post-type-hurrytimer_countdown .hurryt-upgrade-pro-notice {
+    padding: 10px;
+    width: 100%;
+    border-radius: 2px;
+    text-align: center;
+    margin-bottom: 10px; }
+  .post-type-hurrytimer_countdown .hurryt-appearance-feature-pro a {
+    vertical-align: middle; }
+  .post-type-hurrytimer_countdown .hurryt-campaign-preview-fs {
+    position: fixed;
+    top: 0;
+    background: #fff;
+    width: 100%;
+    left: 0;
+    padding: 20px;
+    z-index: 10000;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.14); }
+  .post-type-hurrytimer_countdown .hurryt-note {
+    background: #f1f1f1;
+    border-left: 5px solid #cfcfcf;
+    padding: 10px;
+    border-radius: 2px; }
+    .post-type-hurrytimer_countdown .hurryt-note code {
+      font-style: italic;
+      background: none; }
+  .post-type-hurrytimer_countdown .select2-container--disabled {
+    opacity: .6; }
+
+.hurryt-fullscreen {
+  outline: none;
+  width: 24px;
+  height: 24px;
+  background: url(../images/fullscreen.svg) no-repeat;
+  float: right; }
+  .hurryt-fullscreen.on {
+    background: url(../images/fullscreen-exit.svg) no-repeat; }
+
+.hurryt-preview-fullscreen {
+  position: fixed !important;
+  top: 0;
+  margin: 0 !important;
+  background: #fff;
+  z-index: 999999;
+  width: 100%;
+  left: 0;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05); }
+
+.hurrytimer-sticky {
+  position: relative; }
+
+.hurryt-preview-fullscreen {
+  z-index: 999999999; }
+
+.hurrytimer-inline {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.hurryt-icon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: bottom;
+  position: relative; }
+
+.hurryt-icon[data-icon="help"] {
+  opacity: .5;
+  cursor: help; }
+
+.hurryt-icon[data-icon="help"]:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(../images/help-circle.svg) no-repeat; }
+
+.hurryt-tooltip.ui-tooltip,
+.hurryt-tooltip.ui-tooltip .arrow:after {
+  background: #333; }
+
+.hurryt-tooltip.ui-tooltip {
+  color: #fff;
+  font-size: .8em;
+  max-width: 150px;
+  background: #333;
+  text-align: center;
+  border-radius: 3px;
+  padding: .618em 1em;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); }
+
+.hurryt-tooltip.ui-tooltip .arrow {
+  width: 70px;
+  height: 10px;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  bottom: -7px; }
+
+.hurryt-tooltip.ui-tooltip .arrow:after {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: -20px;
+  width: 25px;
+  height: 25px;
+  box-shadow: 6px 5px 9px -9px #333;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+.hurryt-inline-fields label:not(:last-child) {
+  margin-right: 10px; }

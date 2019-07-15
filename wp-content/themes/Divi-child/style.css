@@ -1,0 +1,72 @@
+/*
+Theme Name: Technology Innovation Summit
+Theme URL: https://www.elegantthemes.com
+Description: Technology Innovation Summit Child Theme
+Author: Diana Santana
+Author URL: dianamargss.com
+Template: Divi
+Version: 1.0.0
+Text Domain: Divi-child
+*/
+/*Menú Móvil*/
+.mobile_menu_bar:before{
+  color: #ffffff;
+  font-weight: 400;
+}
+/* Banner principal*/
+#numero-banner h1{
+    font-size:180px;
+}
+.hurrytimer-campaign-76 .hurrytimer-headline {
+    display: none;
+}
+/* Prevent scrollbars to appear when waves go out of bound */
+.sonar-wrapper {
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+  }
+  @media (max-width:1180px){
+    div#numero-banner {
+        padding: 30px;
+        border-width: 20px;
+    }
+  }
+  
+  @media(max-width:1030px){
+    div#numero-banner h1 {
+        font-size: 130px!important;
+    }
+  }
+
+  @media(max-width:980px){
+    div#table-calendar tr td{
+      display: block;
+    }
+  }
+}
+#main_countedown_3 .time_left {
+    border-radius: 50%;
+    background-color: #3DA8CC;
+    font-size: 30px;
+    font-family: monospace;
+    color: #000000;
+    padding: 26px;
+}
+/* Countdown */
+.hurrytimer-campaign-76 .hurrytimer-timer-digit, .hurrytimer-campaign-76 .hurrytimer-timer-sep {
+  color: #ffffff;
+  background: #9a002a;
+  border-radius: 50px;
+  padding: 25px;
+}
+.hurrytimer-timer{
+  font-weight: bold;
+}
+/*Schedule*/
+div#table-calendar table .header {
+  background: #9999998f;
+}
+div#table-calendar h4{
+  color:#dc452e!important;
+}

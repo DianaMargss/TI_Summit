@@ -1,2 +1,2 @@
-# TI_Summit
- 
+# TIS
+ Technology Innovation Summit
